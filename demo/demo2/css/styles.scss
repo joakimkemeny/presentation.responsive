@@ -1,0 +1,68 @@
+@import "../../../css/libs/mixins";
+
+$alternateColor2: #0091bc;
+
+.grid {
+    height: 100%;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+
+    .wrapper {
+        height: 100%;
+        margin: 0 auto;
+        width: 880px;
+
+        div {
+            background-color: red;
+            float: left;
+            height: 100%;
+            margin-right: 30px;
+            width: 61px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+#header > header,
+#footer > footer,
+.wrapper {
+    width: 880px;
+}
+
+#header {
+    padding: 20px 0;
+
+    img {
+        width: 120px;
+    }
+
+    h1 {
+        float: left;
+        margin-left: 130px;
+    }
+    nav {
+        float: right;
+    }
+}
+
+#content {
+    padding: 60px 0;
+
+    .content {
+        border-right: 2px solid $alternateColor2;
+        float: left;
+        padding-right: 30px;
+        width: 546px;
+    }
+
+    aside {
+        float: right;
+        padding-left: 30px;
+        width: 334px;
+    }
+}

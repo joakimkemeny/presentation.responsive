@@ -1,0 +1,14 @@
+#header {
+    h1 {
+        float: left;
+        margin-left: 130px;
+
+        @media screen and (max-width: 767px) {
+            margin-left: 160px;
+        }
+
+        @media screen and (max-width: 479px) {
+            float: none;
+            margin-left: 0;
+        }
+    }

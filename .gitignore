@@ -1,0 +1,121 @@
+#
+# Project specific Git ignores
+#
+
+
+
+#
+# General Git ignores from
+# https://github.com/github/gitignore
+#
+
+# Archives --------------------------------------
+
+*.7z
+*.bzip
+*.deb
+*.dmg
+*.egg
+*.gem
+*.gz
+*.iso
+*.lzma
+*.rar
+*.rpm
+*.tar
+*.zip
+*.xpi
+*.xz
+
+
+# Eclipse ---------------------------------------
+
+*.bak
+*.launch
+*.swp
+*.tmp
+.buildpath
+.classpath
+.cproject
+.externalToolBuilders/
+.loadpath
+.metadata
+.settings/
+.project
+bin/
+tmp/
+
+
+# IntelliJ --------------------------------------
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+# OSX -------------------------------------------
+
+.DS_Store
+
+
+# TextMate --------------------------------------
+
+*.tmproj
+*.tmproject
+tmtags
+
+
+# Windows ---------------------------------------
+
+Desktop.ini
+Thumbs.db
+
+
+# Android ---------------------------------------
+
+*.apk
+*.ap_
+*.dex
+gen/
+
+
+# Compass ---------------------------------------
+
+.sass-cache
+
+
+# Java ------------------------------------------
+
+*.class
+*.ear
+*.jar
+*.war
+
+
+# Objective C -----------------------------------
+
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xcworkspace
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+!default.xcworkspace
+build
+profile
+xcuserdata
+
+
+# Jekyll ----------------------------------------
+
+_site/
+
+
+# Maven -----------------------------------------
+
+target/

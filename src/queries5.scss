@@ -1,0 +1,18 @@
+    nav {
+        float: right;
+
+        @media screen and (max-width: 767px) {
+            clear: left;
+            float: left;
+            margin-left: 160px;
+            a {
+                background: rgba(255, 255, 255, 0.40);
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            float: none;
+            margin-left: 0;
+        }
+    }
+}

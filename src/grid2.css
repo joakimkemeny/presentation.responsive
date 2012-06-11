@@ -1,0 +1,12 @@
+.wrapper {
+    max-width: 880px;
+    width: 95%; /* 880px */
+}
+
+.content {
+    width: 62.0454545%; /* 546px / 880px */
+}
+
+aside {
+    width: 37.9545455%; /* 334px / 880px */
+}

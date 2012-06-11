@@ -1,0 +1,8 @@
+$blue: #3bbfce;
+$border: 1px solid $blue;
+$margin: 20px;
+
+nav {
+  color: darken($blue, 10%);
+  margin: $margin / 2;
+}

@@ -1,0 +1,272 @@
+@import "../../css/libs/normalize";
+@import "libs/fontawesome";
+@import "../../css/libs/mixins";
+
+/*** Variables ************************************************************************************/
+
+$alternateColor1: darken(#0091bc, 10%);
+$alternateColor2: #0091bc;
+$boxColor: #f0f0f0;
+$boxBorderColor: #bbb;
+$footerColor: #ddd;
+$shadowColor: #666;
+$textColor: #000;
+$white: #fff;
+
+/*** General styles *******************************************************************************/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $footerColor;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+dl {
+    margin: 0;
+
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        margin-left: 20px;
+    }
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+h1 {
+    color: #eee;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+small {
+    color: $shadowColor;
+    font-size: 16px;
+
+    a {
+        color: $shadowColor;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#header > header,
+#footer > footer,
+.wrapper {
+    margin: 0 auto;
+}
+
+#header {
+    @include box-shadow(0, 3px, 5px, $shadowColor);
+
+    background-color: $alternateColor2;
+    border-top: 10px solid $alternateColor1;
+    position: relative;
+    z-index: 1;
+
+    header {
+        @include clearfix;
+
+        position: relative;
+
+        img {
+            left: -15px;
+            position: absolute;
+            top: -10px;
+        }
+
+        nav {
+            ul {
+                @include clearfix;
+
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        @include border-radius(15px);
+                        @include transition-all(0.8s);
+
+                        color: #eee;
+                        display: block;
+                        font-weight: bold;
+                        margin-right: 5px;
+                        padding: 5px 15px;
+                        text-decoration: none;
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+                        &:hover,
+                        &:focus {
+                            background: rgba(255, 255, 255, 0.40);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#content {
+    @include box-shadow(0, 3px, 5px, $shadowColor);
+
+    background-color: white;
+    position: relative;
+    z-index: 0;
+
+    .wrapper {
+        @include clearfix;
+    }
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+.box {
+    @include border-radius(3px);
+
+    background-color: $boxColor;
+    border: 1px solid $boxBorderColor;
+    padding: 20px;
+}
+
+/*** Speakers *************************************************************************************/
+
+.speaker {
+    border-bottom: 1px solid $alternateColor1;
+    margin-bottom: 20px;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    img {
+        @include border-radius(3px);
+        @include box-shadow(2px, 2px, 5px, rgba(0, 0, 0, 0.4));
+        @include transform-rotate(4deg);
+
+        border: 10px solid $boxColor;
+        float: right;
+        margin: 0 20px 20px 20px;
+        width: 150px;
+    }
+
+    &:nth-child(even) {
+        img {
+            @include transform-rotate(-4deg);
+        }
+    }
+}
+
+/*** Registration *********************************************************************************/
+
+.registered {
+    @include border-radius(3px);
+
+    background-color: $boxColor;
+    border: 1px solid $boxBorderColor;
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+
+    &:before {
+        bottom: 100%;
+        border: 21px solid transparent;
+        border-bottom-color: $boxBorderColor;
+        content: " ";
+        height: 0;
+        left: 85%;
+        margin-left: -21px;
+        pointer-events: none;
+        position: absolute;
+        width: 0;
+    }
+
+    &:after {
+        bottom: 100%;
+        border: 20px solid transparent;
+        border-bottom-color: $boxColor;
+        content: " ";
+        height: 0;
+        left: 85%;
+        margin-left: -20px;
+        pointer-events: none;
+        position: absolute;
+        width: 0;
+    }
+
+    table {
+        width: 100%;
+
+        th {
+            padding: 10px 5px;
+            text-align: left;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        tr:nth-child(odd) {
+            td {
+                background-color: white;
+            }
+        }
+    }
+}
+
+/*** Forms ****************************************************************************************/
+
+@-webkit-keyframes pulse {
+    0% {
+        @include box-shadow(0, 0, 8px, rgba(99, 146, 172, .2));
+    }
+    50% {
+        @include box-shadow(0, 0, 8px, rgba(99, 146, 172, .9));
+    }
+    100% {
+        @include box-shadow(0, 0, 8px, rgba(99, 146, 172, .2));
+    }
+}
+
+input {
+    @include border-radius(3px);
+    @include box-inset-shadow(1px, 1px, 0, rgba(0, 0, 0, .075));
+    @include transition-all(0.2s);
+
+    border: 1px solid $boxBorderColor;
+    color: $textColor;
+    display: inline-block;
+    line-height: 18px;
+    padding: 4px;
+    width: 100%;
+
+    &:focus {
+        border-color: rgba(99, 146, 172, .8);
+        outline: 0;
+        -webkit-animation: pulse 1.5s infinite ease-in-out;
+    }
+}

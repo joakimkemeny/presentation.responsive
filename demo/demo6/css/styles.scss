@@ -1,0 +1,90 @@
+@import "../../../css/libs/mixins";
+
+$alternateColor2: #0091bc;
+
+img {
+    max-width: 100%;
+}
+
+#header > header,
+#footer > footer,
+.wrapper {
+    max-width: 880px;
+    width: 95%; // 880px
+}
+
+#header {
+    padding: 20px 0;
+    @media screen and (max-width: 479px) {
+        padding: 10px 0;
+    }
+
+    img {
+        width: 120px;
+        @media screen and (max-width: 767px) {
+            width: 150px;
+        }
+        @media screen and (max-width: 479px) {
+            display: none;
+        }
+    }
+
+    h1 {
+        float: left;
+        margin-left: 130px;
+        @media screen and (max-width: 767px) {
+            margin-left: 160px;
+        }
+        @media screen and (max-width: 479px) {
+            float: none;
+            margin-left: 0;
+        }
+    }
+    nav {
+        float: right;
+        @media screen and (max-width: 767px) {
+            clear: left;
+            float: left;
+            margin-left: 160px;
+            a {
+                background: rgba(255, 255, 255, 0.40);
+            }
+        }
+        @media screen and (max-width: 479px) {
+            float: none;
+            margin-left: 0;
+        }
+    }
+}
+
+#content {
+    padding: 60px 0;
+    @media screen and (max-width: 479px) {
+        padding: 30px 0;
+    }
+
+    .content {
+        border-right: 2px solid $alternateColor2;
+        float: left;
+        padding-right: 30px;
+        width: percentage(546px / 880px);
+        @media screen and (max-width: 599px) {
+            border-bottom: 2px solid $alternateColor2;
+            border-right: 0;
+            float: none;
+            padding: 0 0 20px 0;
+            width: 100%;
+        }
+    }
+
+    aside {
+        float: right;
+        padding-left: 30px;
+        width: percentage(334px/880px);
+        @media screen and (max-width: 599px) {
+            float: none;
+            padding: 20px 0 0 0;
+            width: 100%;
+        }
+    }
+}

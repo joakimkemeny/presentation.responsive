@@ -1,0 +1,186 @@
+/*** Border radius mixins *************************************************************************/
+
+@mixin border-radius($radius){
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin border-radius-top($radius){
+    -moz-border-radius-topleft: $radius;
+    -moz-border-radius-topright: $radius;
+    -webkit-border-top-left-radius: $radius;
+    -webkit-border-top-right-radius: $radius;
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
+}
+
+@mixin border-radius-bottom($radius){
+    -moz-border-radius-bottomleft: $radius;
+    -moz-border-radius-bottomright: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
+@mixin border-radius-left($radius){
+    -moz-border-radius-topleft: $radius;
+    -moz-border-radius-bottomleft: $radius;
+    -webkit-border-top-left-radius: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    border-top-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+@mixin border-radius-right($radius){
+    -moz-border-radius-topright: $radius;
+    -moz-border-radius-bottomright: $radius;
+    -webkit-border-top-right-radius: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
+@mixin border-radius-topleft($radius){
+    -moz-border-radius-topleft: $radius;
+    -webkit-border-top-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+@mixin border-radius-topright($radius){
+    -moz-border-radius-topright: $radius;
+    -webkit-border-top-right-radius: $radius;
+    border-top-right-radius: $radius;
+}
+
+@mixin border-radius-bottomleft($radius){
+    -moz-border-radius-bottomleft: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+@mixin border-radius-bottomright($radius){
+    -moz-border-radius-bottomright: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
+/*** Clearfix mixin *******************************************************************************/
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    & {
+        zoom: 1;
+    }
+}
+
+/*** Flexbox mixins *******************************************************************************/
+
+@mixin box-orient-horizontal {
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-box;
+    display: box;
+}
+
+@mixin box-orient-vertical {
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-box;
+    display: box;
+}
+
+@mixin box-flex($flex){
+    -moz-box-flex: $flex;
+    -ms-box-flex: $flex;
+    -webkit-box-flex: $flex;
+    box-flex: $flex;
+}
+
+/*** Gradient mixins ******************************************************************************/
+
+@mixin gradient-vertical($startColor, $endColor){
+    background-color: mix($startColor, $endColor, 60%);
+    background-image: -moz-linear-gradient(top, $startColor, $endColor);
+    background-image: -ms-linear-gradient(top, $startColor, $endColor);
+    background-image: -o-linear-gradient(top, $startColor, $endColor);
+    background-image: -webkit-linear-gradient(top, $startColor, $endColor);
+    background-image: linear-gradient(top, $startColor, $endColor);
+    background-repeat: repeat-x;
+}
+
+/*** Shadow mixins ********************************************************************************/
+
+@mixin box-inset-shadow($hOffset, $vOffset, $blur, $color){
+    -moz-box-shadow: inset $hOffset $vOffset $blur $color;
+    -webkit-box-shadow: inset $hOffset $vOffset $blur $color;
+    box-shadow: inset $hOffset $vOffset $blur $color;
+}
+
+@mixin box-shadow($hOffset, $vOffset, $blur, $color){
+    -moz-box-shadow: $hOffset $vOffset $blur $color;
+    -webkit-box-shadow: $hOffset $vOffset $blur $color;
+    box-shadow: $hOffset $vOffset $blur $color;
+}
+
+/*** Transformation mixins ************************************************************************/
+
+@mixin transform-rotate($angle){
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform: rotate($angle);
+    -ms-transform: rotate($angle);
+    -o-transform: rotate($angle);
+    -webkit-transform: rotate($angle);
+}
+
+@mixin transform-scale($scale){
+    -webkit-transform: scale($scale);
+    -moz-transform: scale($scale);
+    -o-transform: scale($scale);
+    transform: scale($scale);
+}
+
+/*** Transition mixins ****************************************************************************/
+
+@mixin transition-all($time) {
+    -moz-transition: all ease-in-out $time;
+    -ms-transition: all ease-in-out $time;
+    -o-transition: all ease-in-out $time;
+    -webkit-transition: all ease-in-out $time;
+    transition: all ease-in-out $time;
+}
+
+@mixin transition-background-color($time) {
+    -moz-transition: background-color linear $time;
+    -ms-transition: background-color linear $time;
+    -o-transition: background-color linear $time;
+    -webkit-transition: background-color linear $time;
+    transition: background-color linear $time;
+}
+
+@mixin transition-opacity($time) {
+    -moz-transition: opacity linear $time;
+    -ms-transition: opacity linear $time;
+    -o-transition: opacity linear $time;
+    -webkit-transition: opacity linear $time;
+    transition: opacity linear $time;
+}

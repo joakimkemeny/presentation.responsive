@@ -1,0 +1,47 @@
+@import "mixins";
+
+/*** Enable clicking on elements 'hiding' behind body in 3D ***************************************/
+
+body {
+    pointer-events: none;
+}
+
+#impress {
+    pointer-events: auto;
+}
+
+/*** Step *****************************************************************************************/
+
+.step {
+    @include transition-opacity(1s);
+
+    height: 744px;
+    padding: 40px;
+    position: relative;
+    width: 1000px;
+
+    &:not(.active) {
+        opacity: 0.3;
+        &.invisible {
+            opacity: 0.0;
+        }
+        &.opaque {
+            opacity: 1.0;
+        }
+    }
+}
+
+/*** Overview step ********************************************************************************/
+
+#overview {
+    padding: 0;
+    z-index: -1;
+}
+
+.impress-on-overview {
+    .step,
+    .step:not(.active) {
+        cursor: pointer;
+        opacity: 1;
+    }
+}

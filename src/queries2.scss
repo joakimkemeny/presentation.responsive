@@ -1,0 +1,11 @@
+#content {
+    .content {
+        float: left;
+        padding-right: 30px;
+        width: percentage(546px / 880px);
+    }
+    aside {
+        float: right;
+        padding-left: 30px;
+        width: percentage(334px / 880px);
+    }

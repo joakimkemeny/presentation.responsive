@@ -1,0 +1,12 @@
+.wrapper {
+    max-width: 880px;
+    width: 95%; /* 880px */
+
+    .content {
+        width: percentage( 546px / 880px );
+    }
+
+    aside {
+        width: percentage( 334px / 880px );
+    }
+}
