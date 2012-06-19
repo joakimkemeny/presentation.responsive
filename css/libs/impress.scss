@@ -45,3 +45,20 @@ body {
         opacity: 1;
     }
 }
+
+/*** Show navigation hints ************************************************************************/
+
+.hint {
+    div {
+        @include border-radius(20px);
+
+        background: rgba(0,0,0,0.5);
+        color: #eee;
+        margin: 50px auto 0;
+        padding: 20px 40px;
+        width: 600px;
+    }
+
+    p {
+    }
+}

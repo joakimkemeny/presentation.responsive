@@ -259,74 +259,71 @@ h6 {
     width: 990px;
 
     .toolbar {
-        @include box-orient-horizontal;
-        @include clearfix;
-
         background-color: $boxBorderColor;
-        padding: 5px 10px 10px 10px;
+        height: 47px;
 
-        div {
-            @include box-flex(0);
+        position: relative;
+
+        .buttons {
+            float: left;
+            left: 5px;
+            position: absolute;
+            top: 5px;
+            width: 150px;
+
+            button {
+                @include border-radius(4px);
+                @include transition-all(0.2s);
+
+                border: 1px solid #999;
+                cursor: pointer;
+                float: left;
+                height: 32px;
+                margin-right: 10px;
+                padding: 0 9px 0 9px;
+                //width: 32px;
+
+                &:hover {
+                    background-color: #999;
+                }
+
+                &.back {
+                    @include border-radius-right(0);
+
+                    margin-right: 0;
+                    border-right: 0;
+                }
+
+                &.forward {
+                    @include border-radius-left(0);
+                }
+
+                i {
+                    float: left;
+                    font-size: 17px;
+                    line-height: 32px;
+                }
+            }
         }
 
         .address {
-            @include box-flex(1);
-            @include border-radius(3px);
+            left: 126px;
+            position: absolute;
+            right: 5px;
+            top: 5px;
 
-            background-color: white;
-            border: 1px solid #999;
-            color: $textColor;
-            font-size: 17px;
-            height: 32px;
-            overflow: hidden;
-            padding: 5px;
-            width: 100%;
-        }
+            div {
+                @include border-radius(3px);
 
-        button {
-            @include border-radius(4px);
-            @include transition-all(0.2s);
-
-            border: 1px solid #999;
-            cursor: pointer;
-            float: left;
-            height: 32px;
-            margin-right: 10px;
-            padding: 10px;
-            width: 32px;
-
-            &:hover {
-                background-color: #999;
-            }
-
-            &.back {
-                @include border-radius-right(0);
-                margin-right: 0;
-                border-right: 0;
-
-                i {
-                    background-image: url(../img/back.png);
-                    display: block;
-                    height: 12px;
-                    width: 12px;
-                }
-            }
-            &.forward {
-                @include border-radius-left(0);
-                i {
-                    background-image: url(../img/forward.png);
-                    display: block;
-                    height: 12px;
-                    width: 12px;
-                }
-            }
-            &.reload {
-                i {
-                    background-image: url(../img/reload.png);
-                    display: block;
-                    height: 12px;
-                    width: 12px;
-                }
+                background-color: white;
+                border: 1px solid #999;
+                color: $textColor;
+                font-size: 17px;
+                height: 32px;
+                overflow: hidden;
+                padding: 5px;
+                text-overflow: ellipsis;
+                width: 100%;
             }
         }
     }

@@ -22,6 +22,20 @@
 <body>
     <div id="impress">
 
+        <!-- Hint step ------------------------------------------------------------------------- -->
+
+        <div id="hint" class="step hint invisible" data-x="0" data-y="0" data-scale="0.001">
+            <div>
+                <p><b>Hi there!</b></p>
+                <p>This presentation works best in Chrome and Safari, bad in Firefox and worst (if
+                    at all) in Opera and Internet Explorer.</p>
+                <p>Use a <b>spacebar</b> or <b>arrow keys</b> to navigate and <b>.</b> to resize
+                    demos.</p>
+                <p>So, why don't you press spacebar to get started. I hope you will like it.</p>
+                <p>/Joakim</p>
+            </div>
+        </div>
+
         <!-- Intro steps ----------------------------------------------------------------------- -->
 
         <div id="intro-1" class="step" data-x="0" data-y="0">
@@ -289,16 +303,7 @@
 
         <div id="step-0-1" class="step" data-x="4500" data-y="1000">
             <h1><span>Step 0.1</span> I know what I'm doing</h1>
-            <!--<pre><code data-language="html" data-src="src/viewport.html"></code></pre>-->
-            <pre><code><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>
-<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span> <span class="support attribute">lang</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">en</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
-<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
-  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">charset</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">utf-8</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
-
-  <span class="comment html">&lt;!-- Don't zoom out, use the actual width --&gt;</span>
-  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">name</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">viewport</span><span class="string quote">"</span> <span class="support attribute">content</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">width=device-width</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
-
-  …</code></pre>
+            <pre><code data-language="html" data-src="src/viewport.html"></code></pre>
             <ul class="top-list small">
                 <li class="active">0</li>
                 <li>1</li>
@@ -311,10 +316,7 @@
             <div class="mobile">
                 <div class="test1"></div>
             </div>
-            <!--<pre><code data-language="css" data-src="src/boxsizing1.css"></code></pre>-->
-            <pre><code><span class="entity name tag">div</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-}</code></pre>
+            <pre><code data-language="css" data-src="src/boxsizing1.css"></code></pre>
             <ul class="top-list small">
                 <li class="active">0</li>
                 <li>1</li>
@@ -327,13 +329,7 @@
             <div class="mobile">
                 <div class="test2"></div>
             </div>
-            <!--<pre><code data-language="css" data-src="src/boxsizing2.css"></code></pre>-->
-            <pre><code><span class="entity name tag">div</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-
-  <span class="support css-property">border</span>: <span class="constant numeric">4</span><span class="keyword unit">px</span> solid black;
-  <span class="support css-property">padding</span>: <span class="constant numeric">15</span><span class="keyword unit">px</span>;
-}</code></pre>
+            <pre><code data-language="css" data-src="src/boxsizing2.css"></code></pre>
             <ul class="top-list small">
                 <li class="active">0</li>
                 <li>1</li>
@@ -346,19 +342,7 @@
             <div class="mobile">
                 <div class="test3"></div>
             </div>
-            <!--<pre><code data-language="css" data-src="src/boxsizing3.css"></code></pre>-->
-            <pre><code><span class="entity name tag">div</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-
-  <span class="support css-property">border</span>: <span class="constant numeric">4</span><span class="keyword unit">px</span> solid black;
-  <span class="support css-property">padding</span>: <span class="constant numeric">15</span><span class="keyword unit">px</span>;
-}
-
-* {
-  <span class="support css-property"><span class="support vendor-prefix">-webkit-</span>box-sizing</span>: <span class="support css-value">border-box</span>;
-  <span class="support css-property"><span class="support vendor-prefix">-moz-</span>box-sizing</span>: <span class="support css-value">border-box</span>;
-  <span class="support css-property">box-sizing</span>: <span class="support css-value">border-box</span>;
-}</code></pre>
+            <pre><code data-language="css" data-src="src/boxsizing3.css"></code></pre>
             <ul class="top-list small">
                 <li class="active">0</li>
                 <li>1</li>
@@ -381,31 +365,20 @@
         <div id="grid-2" class="step invisible" data-x="7500" data-y="2500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo1/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo1/index.html" frameborder="0"></iframe>
             </div>
         </div>
         <div id="grid-3" class="step" data-x="9000" data-y="2500">
             <h1>Creating a flexible grid</h1>
-            <!--<pre><code data-language="css" data-src="src/grid1.css"></code></pre>-->
-            <pre><code><span class="entity name class">.wrapper</span> {
-
-  <span class="support css-property">width</span>: <span class="constant numeric">880</span><span class="keyword unit">px</span>;
-}
-
-<span class="entity name class">.content</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">546</span><span class="keyword unit">px</span>;
-}
-
-<span class="entity name tag">aside</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">334</span><span class="keyword unit">px</span>;
-}</code></pre>
+            <pre><code data-language="css" data-src="src/grid1.css"></code></pre>
             <ul class="top-list small">
                 <li>0</li>
                 <li class="active">1</li>
@@ -415,19 +388,7 @@
         </div>
         <div id="grid-3-2" class="step invisible" data-x="9000" data-y="2500">
             <h1>Creating a flexible grid</h1>
-            <!--<pre><code data-language="css" data-src="src/grid2.css"></code></pre>-->
-            <pre><code><span class="entity name class">.wrapper</span> {
-  <span class="support css-property">max-width</span>: <span class="constant numeric">880</span><span class="keyword unit">px</span>;
-  <span class="support css-property">width</span>: <span class="constant numeric">95</span><span class="keyword unit">%</span>; <span class="comment">/* 880px */</span>
-}
-
-<span class="entity name class">.content</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">62</span>.<span class="constant numeric">0454545</span><span class="keyword unit">%</span>; <span class="comment">/* 546px / 880px */</span>
-}
-
-<span class="entity name tag">aside</span> {
-  <span class="support css-property">width</span>: <span class="constant numeric">37</span>.<span class="constant numeric">9545455</span><span class="keyword unit">%</span>; <span class="comment">/* 334px / 880px */</span>
-}</code></pre>
+            <pre><code data-language="css" data-src="src/grid2.css"></code></pre>
             <ul class="top-list small">
                 <li>0</li>
                 <li class="active">1</li>
@@ -444,26 +405,10 @@
                 <div class="box bubble">Nesting</div>
                 <div class="box bubble">Mixins</div>
             </div>
-            <!--<pre class="half-left"><code data-language="css"
-                                          data-src="src/sass1.scss"></code></pre>-->
-            <pre class="half-left"><code>$<span class="support css-property">blue</span>: <span class="constant hex-color">#3bbfce</span>;
-$<span class="support css-property">border</span>: <span class="constant numeric">1</span><span class="keyword unit">px</span> solid $blue;
-$<span class="support css-property">margin</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span>;
-
-<span class="entity name tag">nav</span> {
-  <span class="support css-property">color</span>: <span class="support css-value">darken</span>($blue, <span class="constant numeric">10</span><span class="keyword unit">%</span>);
-  <span class="support css-property">margin</span>: $margin / <span class="constant numeric">2</span>;
-}</code></pre>
-            <!--<pre class="half-right"><code data-language="css"
-                                          data-src="src/sass2.scss"></code></pre>-->
-            <pre class="half-right"><code><span class="entity name tag">ul</span> {
-  <span class="entity name tag">li</span> {
-    <span class="support css-property">border-left</span>: $border;
-    <span class="entity name sass">&amp;</span><span class="entity name pseudo">:first-child</span> {
-      <span class="support css-property">border-left</span>: <span class="constant numeric">0</span>;
-    }
-  }
-}</code></pre>
+            <pre class="half-left"><code data-language="css"
+                                         data-src="src/sass1.scss"></code></pre>
+            <pre class="half-right"><code data-language="css"
+                                          data-src="src/sass2.scss"></code></pre>
             <ul class="top-list small">
                 <li class="active">0</li>
                 <li>1</li>
@@ -481,20 +426,8 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         </div>
 
         <div id="grid-3-3" class="step invisible" data-x="9000" data-y="2500">
-                <h1>Creating a flexible grid</h1>
-            <!--<pre><code data-language="css" data-src="src/grid2.scss"></code></pre>-->
-            <pre><code><span class="entity name class">.wrapper</span> {
-  <span class="support css-property">max-width</span>: <span class="constant numeric">880</span><span class="keyword unit">px</span>;
-  <span class="support css-property">width</span>: <span class="constant numeric">95</span><span class="keyword unit">%</span>; <span class="comment">/* 880px */</span>
-
-  <span class="entity name class">.content</span> {
-    <span class="support css-property">width</span>: <span class="support css-value">percentage</span>( <span class="constant numeric">546</span><span class="keyword unit">px</span> / <span class="constant numeric">880</span><span class="keyword unit">px</span> );
-  }
-
-  <span class="entity name tag">aside</span> {
-    <span class="support css-property">width</span>: <span class="support css-value">percentage</span>( <span class="constant numeric">334</span><span class="keyword unit">px</span> / <span class="constant numeric">880</span><span class="keyword unit">px</span> );
-  }
-}</code></pre>
+            <h1>Creating a flexible grid</h1>
+            <pre><code data-language="css" data-src="src/grid2.scss"></code></pre>
             <ul class="top-list small">
                 <li>0</li>
                 <li class="active">1</li>
@@ -505,14 +438,15 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         <div id="grid-4" class="step" data-x="10500" data-y="2500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo3/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo3/index.html" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -529,16 +463,7 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         </div>
         <div id="images-2" class="step" data-x="9000" data-y="3500">
             <h1>Creating flexible images</h1>
-            <!--<pre><code data-language="css" data-src="src/images.scss"></code></pre>-->
-            <pre><code><span class="entity name tag">img</span>, <span class="entity name tag">embed</span>, <span class="entity name tag">object</span>, <span class="entity name tag">video</span> {
-  <span class="support css-property">max-width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-}
-
-<span class="entity name class">.ie6</span> {
-  <span class="entity name tag">img</span>, <span class="entity name tag">object</span> {
-    <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-  }
-}</code></pre>
+            <pre><code data-language="css" data-src="src/images.scss"></code></pre>
             <p class="links">
                 Great tool <a href="http://modernizr.com">modernizr.com</a>
             </p>
@@ -552,14 +477,15 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         <div id="images-3" class="step" data-x="7500" data-y="3500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo4/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo4/index.html" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -576,15 +502,7 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         </div>
         <div id="media-queries-2" class="step" data-x="4500" data-y="3500">
             <h1>Using Media Queries</h1>
-            <!--<pre><code data-language="css" data-src="src/queries1.scss"></code></pre>-->
-            <pre><code>@<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">480px</span>) {
-  <span class="entity name tag">body</span> {
-    <span class="support css-property">background-color</span>: <span class="support css-value">red</span>;
-  }
-}
-
-@media screen and (<span class="support css-property">orientation</span>: <span class="support css-value">landscape</span>) …
-@media screen and (<span class="support css-property"><span class="support vendor-prefix">-webkit-</span>min-device-pixel-ratio</span>: <span class="constant numeric">2</span>) …</code></pre>
+            <pre><code data-language="css" data-src="src/queries1.scss"></code></pre>
             <ul class="top-list small">
                 <li>0</li>
                 <li>1</li>
@@ -633,34 +551,10 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         </div>
         <div id="media-queries-4" class="step" data-x="1500" data-y="3500">
             <h1>Using Media Queries</h1>
-            <!--<pre><code data-language="css" data-src="src/queries2.scss"></code></pre>-->
-            <pre><code><span class="entity name id">#content</span> {
-  <span class="entity name class">.content</span> {
-    <span class="support css-property">float</span>: <span class="support css-value">left</span>;
-    <span class="support css-property">padding-right</span>: <span class="constant numeric">30</span><span class="keyword unit">px</span>;
-    <span class="support css-property">width</span>: <span class="support css-value">percentage</span>(<span class="constant numeric">546</span><span class="keyword unit">px</span> / <span class="constant numeric">880</span><span class="keyword unit">px</span>);
-  }
-  <span class="entity name tag">aside</span> {
-    <span class="support css-property">float</span>: <span class="support css-value">right</span>;
-    <span class="support css-property">padding-left</span>: <span class="constant numeric">30</span><span class="keyword unit">px</span>;
-    <span class="support css-property">width</span>: <span class="support css-value">percentage</span>(<span class="constant numeric">334</span><span class="keyword unit">px</span> / <span class="constant numeric">880</span><span class="keyword unit">px</span>);
-  }</code></pre>
+            <pre><code data-language="css" data-src="src/queries2.scss"></code></pre>
         </div>
         <div id="media-queries-4-2" class="step" data-x="1500" data-y="4000">
-            <!--<pre><code data-language="css" data-src="src/queries3.scss"></code></pre>-->
-            <pre><code>  @<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">599px</span>) {
-    <span class="entity name class">.content</span> {
-      <span class="support css-property">float</span>: <span class="support css-value">none</span>;
-      <span class="support css-property">padding</span>: <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">20</span><span class="keyword unit">px</span> <span class="constant numeric">0</span>;
-      <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-    }
-    <span class="entity name tag">aside</span> {
-      <span class="support css-property">float</span>: <span class="support css-value">none</span>;
-      <span class="support css-property">padding</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span> <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">0</span>;
-      <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
-    }
-  }
-}</code></pre>
+            <pre><code data-language="css" data-src="src/queries3.scss"></code></pre>
             <ul class="top-list small">
                 <li>0</li>
                 <li>1</li>
@@ -671,80 +565,50 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         <div id="media-queries-5" class="step" data-x="1500" data-y="5000">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo5/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo5/index.html" frameborder="0"></iframe>
             </div>
         </div>
         <div id="media-queries-4-3" class="step" data-x="1500" data-y="6000">
             <h1>Using Media Queries</h1>
-            <!--<pre><code data-language="css" data-src="src/queries4.scss"></code></pre>-->
-            <pre><code><span class="entity name id">#header</span> {
-  <span class="entity name tag">h1</span> {
-    <span class="support css-property">float</span>: <span class="support css-value">left</span>;
-    <span class="support css-property">margin-left</span>: <span class="constant numeric">130</span><span class="keyword unit">px</span>;
-
-    @<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">767px</span>) {
-      <span class="support css-property">margin-left</span>: <span class="constant numeric">160</span><span class="keyword unit">px</span>;
-    }
-
-    @<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">479px</span>) {
-      <span class="support css-property">float</span>: <span class="support css-value">none</span>;
-      <span class="support css-property">margin-left</span>: <span class="constant numeric">0</span>;
-    }
-  }
-</code></pre>
+            <pre><code data-language="css" data-src="src/queries4.scss"></code></pre>
         </div>
         <div id="media-queries-4-4" class="step" data-x="1500" data-y="6600">
-            <!--<pre><code data-language="css" data-src="src/queries5.scss"></code></pre>-->
-            <pre><code>  <span class="entity name tag">nav</span> {
-    <span class="support css-property">float</span>: <span class="support css-value">right</span>;
-
-    @<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">767px</span>) {
-      <span class="support css-property">clear</span>: <span class="support css-value">left</span>;
-      <span class="support css-property">float</span>: <span class="support css-value">left</span>;
-      <span class="support css-property">margin-left</span>: <span class="constant numeric">160</span><span class="keyword unit">px</span>;
-      <span class="entity name tag">a</span> {
-        <span class="support css-property">background</span>: <span class="support css-value">rgba</span>(<span class="constant numeric">255</span>, <span class="constant numeric">255</span>, <span class="constant numeric">255</span>, <span class="constant numeric">0</span>.<span class="constant numeric">40</span>);
-      }
-    }
-
-    @<span class="entity name tag">media</span> <span class="entity name tag">screen</span> <span class="entity name tag">and</span> (<span class="entity name tag">max</span>-<span class="entity name tag">width</span>: <span class="entity name tag">479px</span>) {
-      <span class="support css-property">float</span>: <span class="support css-value">none</span>;
-      <span class="support css-property">margin-left</span>: <span class="constant numeric">0</span>;
-    }
-  }
-}</code></pre>
+            <pre><code data-language="css" data-src="src/queries5.scss"></code></pre>
         </div>
         <div id="media-queries-5-2" class="step" data-x="3000" data-y="6000">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo6/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo6/index.html" frameborder="0"></iframe>
             </div>
         </div>
         <div id="media-queries-6" class="step" data-x="3000" data-y="4500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>demo/demo7/index.html</div>
+                    </div>
                 </div>
-                <iframe src="demo/demo7/index.html" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -783,44 +647,47 @@ $<span class="support css-property">margin</span>: <span class="constant numeric
         <div id="demo-1" class="step" data-x="6000" data-y="4500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>http://www.svt.se</div>
+                    </div>
                 </div>
-                <iframe src="http://www.svt.se" frameborder="0"></iframe>
             </div>
         </div>
         <div id="demo-2" class="step" data-x="7500" data-y="4500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>http://css-tricks.com</div>
+                    </div>
                 </div>
-                <iframe src="http://css-tricks.com" frameborder="0"></iframe>
             </div>
         </div>
         <div id="demo-3" class="step" data-x="9000" data-y="4500">
             <div class="browser">
                 <div class="toolbar">
-                    <div>
-                        <button class="back"><i></i></button>
-                        <button class="forward"><i></i></button>
-                        <button class="reload"><i></i></button>
+                    <div class="buttons">
+                        <button class="back"><i class="icon-arrow-left"></i></button>
+                        <button class="forward"><i class="icon-arrow-right"></i></button>
+                        <button class="refresh"><i class="icon-refresh"></i></button>
                     </div>
-                    <div class="address"></div>
+                    <div class="address">
+                        <div>http://bryanconnor.com</div>
+                    </div>
                 </div>
-                <iframe src="http://bryanconnor.com" frameborder="0"></iframe>
             </div>
         </div>
 
-        <!-- Challenges steps ------------------------------------------------------------------ -->
+        <!-- Conclusions steps ----------------------------------------------------------------- -->
 
         <div id="conclusions-1" class="step center" data-x="10500" data-y="4500">
             <h1 class="medium">Conclusions</h1>

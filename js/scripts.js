@@ -22,8 +22,29 @@ Responsive = (function ($) {
     "use strict";
     var Presentation = {};
 
-    Presentation.loadSrc = function () {
-        $("code[data-src]").each(function (index, element) {
+    Presentation.loadDemo = function (step) {
+        if (step.data("demo-loaded")) {
+            return;
+        }
+
+        var browser = step.find(".browser");
+        var addressBar = browser.find(".address div");
+        browser.append("<iframe src='" + addressBar.text() + "' frameborder='0'></iframe>");
+
+        var iframe = browser.find("iframe");
+        iframe.load(function () {
+            addressBar.text(this.src);
+        });
+
+        step.data("demo-loaded", true);
+    };
+
+    Presentation.loadSrc = function (step) {
+        if (step.data("src-loaded")) {
+            return;
+        }
+
+        $("code[data-src]", step).each(function (index, element) {
             var $element = $(element)
             var srcUrl = $element.data("src");
             var srcLang = $element.data("language");
@@ -37,14 +58,8 @@ Responsive = (function ($) {
                 }
             }, "text");
         });
-    };
 
-
-    Presentation.startBrowsers = function () {
-        $("iframe").load(function (e) {
-            var addressBar = $(this).parent().find(".address");
-            addressBar.text(this.src);
-        });
+        step.data("src-loaded", true);
     };
 
     Presentation.resizeBrowser = function () {
@@ -103,7 +118,10 @@ Responsive = (function ($) {
 }($));
 
 $(function () {
-    Responsive.loadSrc();
+    $(".step").on("impress:stepenter", function () {
+        Responsive.loadSrc($(this));
+        Responsive.loadDemo($(this));
+    });
+
     Responsive.resizeBrowser();
-    Responsive.startBrowsers();
 });
