@@ -48,3 +48,12 @@ Unless required by applicable law or agreed to in writing, software distributed 
 is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
 implied. See the License for the specific language governing permissions and limitations under
 the License.
+
+## Thanks
+
+I use the work of great people to create this presentation. Thanks to you all.
+
+* Bartek Szopka ([impress.js](http://bartaz.github.com/impress.js))
+* John Resig ([jQuery](http://jquery.com))
+* Ben Barnett ([jQuery.animate-enhanced](http://github.com/benbarnett/jQuery-Animate-Enhanced))
+* Craig Campbell ([Rainbow](http://rainbowco.de))
