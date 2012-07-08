@@ -17,17 +17,17 @@ the way you think about the web.
 ## Known issues
 
 * The presentation crashes Safari for iPad.
-* The presentation doesn't work on Internet Explorer and Opera.
-* The presentation doesn't look good on Firefox.
-* The source code doesn't show in Chrome unless served from a webserver.
+* The presentation doesn't work in Internet Explorer and Opera.
+* The presentation doesn't look good in Firefox.
+* The source code doesn't show in Chrome unless served from a web server.
 
 Long story short: It's made for Safari, I present it using Safari so Safari is probably the best
 way to watch this presentation :-) Maybe I'll fix it in the future, maybe not.
 
 ## Contact
 
-If you have any questions or if you want me to come and speak to can contact me on Twitter
-[@joakimkemeny](http://twitter.com/joakimkemeny).
+If you have any questions or if you want the live version of this presentation you can contact me on
+Twitter [@joakimkemeny](http://twitter.com/joakimkemeny).
 
 ## License
 
