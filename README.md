@@ -11,7 +11,7 @@ well as on a 60" television?
 
 Responsive web design can be the answer for you and it's one of the hottest trend in web design
 right now. Joakim will use this technique to give you an understanding of how to design and code
-web applications for 2012 and beyond. The result will be shown in a demo that will possibly change
+web applications for 2013 and beyond. The result will be shown in a demo that will possibly change
 the way you think about the web.
 
 ## Known issues
