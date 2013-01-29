@@ -2,7 +2,7 @@
  * PHP patterns
  *
  * @author Craig Campbell
- * @version 1.0.5
+ * @version 1.0.7
  */
 Rainbow.extend('php', [
     {
@@ -15,6 +15,10 @@ Rainbow.extend('php', [
             2: 'variable'
         },
         'pattern': /(\$)(\w+)\b/g
+    },
+    {
+        'name': 'constant.language',
+        'pattern': /true|false|null/ig
     },
     {
         'name': 'constant',
@@ -62,7 +66,7 @@ Rainbow.extend('php', [
                 'pattern': /\w+/g
             }
         },
-        'pattern': /\b(namespace)\s(.*?);/g
+        'pattern': /\b(namespace|use)\s(.*?);/g
     },
     {
         'matches': {
@@ -70,9 +74,11 @@ Rainbow.extend('php', [
             2: 'storage.class',
             3: 'entity.name.class',
             4: 'storage.modifier.extends',
-            5: 'entity.other.inherited-class'
+            5: 'entity.other.inherited-class',
+            6: 'storage.modifier.extends',
+            7: 'entity.other.inherited-class'
         },
-        'pattern': /\b(abstract|final)?\s?(class)\s(\w+)(\sextends\s)?([\w\\]*)?\s?\{?(\n|\})/g
+        'pattern': /\b(abstract|final)?\s?(class|interface|trait)\s(\w+)(\sextends\s)?([\w\\]*)?(\simplements\s)?([\w\\]*)?\s?\{?(\n|\})/g
     },
     {
         'name': 'keyword.static',
