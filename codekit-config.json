@@ -57,29 +57,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/libs\/language\/css.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/css.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
-      "fileType" : 64
-    },
-    "\/css\/libs\/mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/demo\/img\/html5.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -90,6 +67,26 @@
       "outputAbbreviatedPath" : "\/demo\/img\/html5.png",
       "initialSize" : 12452,
       "fileType" : 8192
+    },
+    "\/img\/ipad-ls-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
+      "initialSize" : 412374,
+      "fileType" : 8192
+    },
+    "\/demo\/demo1\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo1\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/demo\/img\/html5-sticker.png" : {
       "ignoreWasSetByUser" : 0,
@@ -124,27 +121,15 @@
       "outputAbbreviatedPath" : "\/js\/scripts.min.min.js",
       "fileType" : 64
     },
-    "\/demo\/demo5\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/libs\/normalize.scss" : {
+    "\/src\/queries4.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/normalize.scss",
+      "inputAbbreviatedPath" : "\/src\/queries4.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/normalize.css",
+      "outputAbbreviatedPath" : "\/src\/queries4.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -159,6 +144,27 @@
       "initialSize" : 4413,
       "fileType" : 4096
     },
+    "\/src\/grid1.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/grid1.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/libs\/normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/libs\/language\/javascript.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -170,17 +176,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/javascript.min.js",
       "fileType" : 64
     },
-    "\/img\/ipad-ls-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
-      "initialSize" : 412374,
-      "fileType" : 8192
-    },
     "\/demo\/demo2\/speakers.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -190,15 +185,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/src\/queries4.scss" : {
+    "\/demo\/demo5\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries4.scss",
-      "outputStyle" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.scss",
+      "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries4.css",
+      "outputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -222,6 +217,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/js\/libs\/language\/css.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/css.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
+      "fileType" : 64
+    },
     "\/js\/libs\/language\/haskell.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -233,23 +239,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/haskell.min.js",
       "fileType" : 64
     },
-    "\/src\/grid1.css" : {
+    "\/css\/libs\/mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/grid1.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/demo1\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/css\/libs\/mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/libs\/theme.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -272,6 +272,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/src\/grid2.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/grid2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/img\/icons\/favicon-16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -293,15 +302,6 @@
       "outputAbbreviatedPath" : "\/img\/back.png",
       "initialSize" : 1611,
       "fileType" : 8192
-    },
-    "\/src\/grid2.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/grid2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/js\/libs\/language\/java.js" : {
       "ignoreWasSetByUser" : 0,
@@ -409,6 +409,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/img\/ipad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad.png",
+      "initialSize" : 86849,
+      "fileType" : 8192
+    },
     "\/demo\/demo1\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -420,17 +431,6 @@
       "outputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/ipad.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ipad.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ipad.png",
-      "initialSize" : 86849,
-      "fileType" : 8192
     },
     "\/src\/queries2.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -478,6 +478,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/libs\/language\/generic.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/generic.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/generic.min.js",
+      "fileType" : 64
+    },
     "\/demo\/css\/libs\/fontawesome.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -489,17 +500,6 @@
       "outputAbbreviatedPath" : "\/demo\/css\/libs\/fontawesome.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/libs\/language\/generic.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/generic.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/generic.min.js",
-      "fileType" : 64
     },
     "\/js\/libs\/jquery.animate.js" : {
       "ignoreWasSetByUser" : 0,
@@ -536,30 +536,21 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/src\/boxsizing2.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/src\/boxsizing3.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/src\/boxsizing3.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/src\/boxsizing1.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing1.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/demo5\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -574,6 +565,24 @@
       "initialSize" : 70539,
       "fileType" : 8192
     },
+    "\/demo\/demo5\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/demo1\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo1\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/demo\/demo7\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -586,26 +595,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/demo1\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/display-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/display-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/display-site.png",
-      "initialSize" : 86769,
-      "fileType" : 8192
-    },
     "\/js\/libs\/language\/csharp.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -616,15 +605,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/language\/csharp.min.js",
       "fileType" : 64
-    },
-    "\/demo\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/demo\/demo7\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -637,6 +617,26 @@
       "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.js",
       "fileType" : 64
     },
+    "\/img\/display-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/display-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/display-site.png",
+      "initialSize" : 86769,
+      "fileType" : 8192
+    },
+    "\/src\/boxsizing1.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing1.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -647,29 +647,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/scripts.min.js",
       "fileType" : 64
-    },
-    "\/img\/iphone-site3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone-site3.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone-site3.png",
-      "initialSize" : 131067,
-      "fileType" : 8192
-    },
-    "\/src\/sass1.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass1.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/sass1.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/demo\/demo6\/speakers.html" : {
       "ignoreWasSetByUser" : 0,
@@ -691,6 +668,18 @@
       "outputAbbreviatedPath" : "\/js\/libs\/impress.console.min.js",
       "fileType" : 64
     },
+    "\/src\/sass1.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass1.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/sass1.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/img\/sr-fail1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -702,16 +691,23 @@
       "initialSize" : 348919,
       "fileType" : 8192
     },
-    "\/img\/screensizes.png" : {
+    "\/demo\/demo2\/css\/styles.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/screensizes.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/screensizes.png",
-      "initialSize" : 13302,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/img\/icons\/ipad_2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -733,6 +729,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/indexOld.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/indexOld.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/iphone-site1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -743,15 +748,6 @@
       "outputAbbreviatedPath" : "\/img\/iphone-site1.png",
       "initialSize" : 129394,
       "fileType" : 8192
-    },
-    "\/src\/boxsizing2.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -771,14 +767,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/demo\/demo2\/css\/styles.css" : {
+    "\/img\/iphone-site3.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/iphone-site3.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone-site3.png",
+      "initialSize" : 131067,
+      "fileType" : 8192
     },
     "\/js\/libs\/language\/ruby.js" : {
       "ignoreWasSetByUser" : 0,
@@ -826,14 +824,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/styles.css" : {
+    "\/demo\/demo4\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.css",
+      "inputAbbreviatedPath" : "\/demo\/demo4\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/js\/libs\/impress.js" : {
       "ignoreWasSetByUser" : 0,
@@ -846,14 +844,14 @@
       "outputAbbreviatedPath" : "\/js\/libs\/impress.min.js",
       "fileType" : 64
     },
-    "\/demo\/demo4\/index.html" : {
+    "\/css\/styles.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo4\/index.html",
+      "inputAbbreviatedPath" : "\/css\/styles.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/demo\/js\/libs\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
@@ -865,6 +863,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/demo\/js\/libs\/jquery.min.js",
       "fileType" : 64
+    },
+    "\/img\/screensizes.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/screensizes.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/screensizes.png",
+      "initialSize" : 13302,
+      "fileType" : 8192
     },
     "\/js\/libs\/language\/r.js" : {
       "ignoreWasSetByUser" : 0,
@@ -918,17 +927,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/libs\/language\/c.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/c.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/c.min.js",
-      "fileType" : 64
-    },
     "\/demo\/demo3\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -940,6 +938,17 @@
       "outputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/libs\/language\/c.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/c.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/c.min.js",
+      "fileType" : 64
     },
     "\/src\/queries3.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -964,6 +973,17 @@
       "initialSize" : 2791,
       "fileType" : 8192
     },
+    "\/js\/libs\/language\/go.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/go.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/go.min.js",
+      "fileType" : 64
+    },
     "\/src\/sass2.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -984,17 +1004,6 @@
       "inputAbbreviatedPath" : "\/demo\/demo7\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/js\/libs\/language\/go.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/go.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/go.min.js",
-      "fileType" : 64
     },
     "\/js\/libs\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1123,16 +1132,14 @@
       "initialSize" : 2918,
       "fileType" : 8192
     },
-    "\/img\/icons\/iphone.png" : {
+    "\/src\/viewport.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/iphone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/iphone.png",
-      "initialSize" : 2817,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/src\/viewport.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/libs\/language\/php.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1145,16 +1152,16 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/php.min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/language\/lua.js" : {
+    "\/img\/icons\/iphone.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/lua.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/lua.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/icons\/iphone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/iphone.png",
+      "initialSize" : 2817,
+      "fileType" : 8192
     },
     "\/demo\/img\/placeholder-male.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1167,14 +1174,16 @@
       "initialSize" : 2834,
       "fileType" : 4096
     },
-    "\/src\/viewport.html" : {
+    "\/js\/libs\/language\/lua.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/viewport.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/lua.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/lua.min.js",
+      "fileType" : 64
     },
     "\/demo\/demo4\/css\/styles.css" : {
       "ignoreWasSetByUser" : 0,
