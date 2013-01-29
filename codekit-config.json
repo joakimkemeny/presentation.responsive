@@ -2,252 +2,37 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/src\/queries1.scss" : {
+    "\/img\/iphone-site1-grey.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/iphone-site1-grey.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone-site1-grey.png",
+      "initialSize" : 865752,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/impress.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries1.scss",
+      "inputAbbreviatedPath" : "\/js\/libs\/impress.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries1.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/impress.min.js",
+      "fileType" : 64
     },
-    "\/img\/vasttrafik.png" : {
+    "\/demo\/demo6\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/vasttrafik.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/vasttrafik.png",
-      "initialSize" : 25603,
-      "fileType" : 8192
-    },
-    "\/img\/iphone-site2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone-site2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone-site2.png",
-      "initialSize" : 107553,
-      "fileType" : 8192
-    },
-    "\/demo\/demo2\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.scss",
+      "inputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/demo\/demo6\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/img\/html5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/img\/html5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/demo\/img\/html5.png",
-      "initialSize" : 12452,
-      "fileType" : 8192
-    },
-    "\/img\/ipad-ls-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
-      "initialSize" : 412374,
-      "fileType" : 8192
-    },
-    "\/demo\/demo1\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/demo\/img\/html5-sticker.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/img\/html5-sticker.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/demo\/img\/html5-sticker.png",
-      "initialSize" : 26076,
-      "fileType" : 8192
-    },
-    "\/img\/omegapoint.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/omegapoint.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/omegapoint.png",
-      "initialSize" : 39441,
-      "fileType" : 8192
-    },
-    "\/js\/scripts.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/scripts.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/scripts.min.min.js",
-      "fileType" : 64
-    },
-    "\/src\/queries4.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries4.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries4.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/demo\/img\/placeholder-female.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/img\/placeholder-female.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/demo\/img\/placeholder-female.jpg",
-      "initialSize" : 4413,
-      "fileType" : 4096
-    },
-    "\/src\/grid1.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/grid1.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/libs\/normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/language\/javascript.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/javascript.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/javascript.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo2\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/demo\/demo5\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/display.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/display.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/display.png",
-      "initialSize" : 38282,
-      "fileType" : 8192
-    },
-    "\/demo\/demo3\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/libs\/language\/css.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/css.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
-      "fileType" : 64
-    },
-    "\/js\/libs\/language\/haskell.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/haskell.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/haskell.min.js",
-      "fileType" : 64
-    },
-    "\/css\/libs\/mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/mixins.css",
+      "outputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -263,88 +48,70 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/demo3\/speakers.html" : {
+    "\/demo\/demo3\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo3\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/src\/grid2.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/grid2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/icons\/favicon-16.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
-      "initialSize" : 2770,
-      "fileType" : 8192
-    },
-    "\/img\/back.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/back.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/back.png",
-      "initialSize" : 1611,
-      "fileType" : 8192
-    },
-    "\/js\/libs\/language\/java.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/java.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/java.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo4\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo4\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/vasttrafik-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "initialSize" : 28724,
-      "fileType" : 8192
-    },
-    "\/src\/images.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/images.scss",
-      "outputStyle" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.scss",
+      "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/images.css",
+      "outputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/scripts.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/scripts.min.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/scripts.min.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo5\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/rainbow.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/rainbow.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/rainbow.min.js",
+      "fileType" : 64
+    },
+    "\/img\/ipad-ls-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad-ls-site.png",
+      "initialSize" : 412374,
+      "fileType" : 8192
+    },
+    "\/demo\/img\/placeholder-female.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/img\/placeholder-female.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/demo\/img\/placeholder-female.jpg",
+      "initialSize" : 4413,
+      "fileType" : 4096
     },
     "\/js\/libs\/language\/smalltalk.js" : {
       "ignoreWasSetByUser" : 0,
@@ -357,34 +124,54 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/smalltalk.min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/language\/coffeescript.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.min.js",
-      "fileType" : 64
-    },
-    "\/js\/libs\/language\/scheme.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/scheme.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/scheme.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo5\/speakers.html" : {
+    "\/img\/iphone.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/speakers.html",
+      "inputAbbreviatedPath" : "\/img\/iphone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone.png",
+      "initialSize" : 70539,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/language\/csharp.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/csharp.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/csharp.min.js",
+      "fileType" : 64
+    },
+    "\/src\/boxsizing2.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/demo7\/js\/scripts.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo3\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo3\/speakers.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -400,324 +187,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/libs\/impress.console.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/impress.console.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/ipad.png" : {
+    "\/img\/reload.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ipad.png",
+      "inputAbbreviatedPath" : "\/img\/reload.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ipad.png",
-      "initialSize" : 86849,
-      "fileType" : 8192
-    },
-    "\/demo\/demo1\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/src\/queries2.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries2.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries2.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/rainbow.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/rainbow.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/rainbow.min.js",
-      "fileType" : 64
-    },
-    "\/img\/sr-fail2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/sr-fail2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/sr-fail2.png",
-      "initialSize" : 88121,
-      "fileType" : 8192
-    },
-    "\/demo\/demo4\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/language\/generic.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/generic.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/generic.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/css\/libs\/fontawesome.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/css\/libs\/fontawesome.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/css\/libs\/fontawesome.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/jquery.animate.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery.animate.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery.animate.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/src\/queries5.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries5.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries5.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/src\/boxsizing2.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/src\/boxsizing3.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing3.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/iphone.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone.png",
-      "initialSize" : 70539,
-      "fileType" : 8192
-    },
-    "\/demo\/demo5\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/demo1\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/demo\/demo7\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/language\/csharp.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/csharp.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/csharp.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo7\/js\/scripts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.js",
-      "fileType" : 64
-    },
-    "\/img\/display-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/display-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/display-site.png",
-      "initialSize" : 86769,
-      "fileType" : 8192
-    },
-    "\/src\/boxsizing1.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing1.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/scripts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/scripts.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo6\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo6\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/libs\/impress.console.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/impress.console.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/impress.console.min.js",
-      "fileType" : 64
-    },
-    "\/src\/sass1.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass1.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/sass1.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/sr-fail1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/sr-fail1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/sr-fail1.png",
-      "initialSize" : 348919,
-      "fileType" : 8192
-    },
-    "\/demo\/demo2\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/icons\/ipad_2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
-      "initialSize" : 2965,
+      "outputAbbreviatedPath" : "\/img\/reload.png",
+      "initialSize" : 1759,
       "fileType" : 8192
     },
     "\/demo\/demo2\/index.html" : {
@@ -726,172 +204,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/demo\/demo2\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/indexOld.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/indexOld.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/iphone-site1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone-site1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone-site1.png",
-      "initialSize" : 129394,
-      "fileType" : 8192
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/demo\/demo7\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/iphone-site3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone-site3.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone-site3.png",
-      "initialSize" : 131067,
-      "fileType" : 8192
-    },
-    "\/js\/libs\/language\/ruby.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/ruby.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/ruby.min.js",
-      "fileType" : 64
-    },
-    "\/css\/libs\/impress.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/impress.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/impress.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/language\/html.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/html.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/html.min.js",
-      "fileType" : 64
-    },
-    "\/css\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/demo\/demo4\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo4\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/libs\/impress.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/impress.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/impress.min.js",
-      "fileType" : 64
-    },
-    "\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/js\/libs\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/js\/libs\/jquery.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/demo\/js\/libs\/jquery.min.js",
-      "fileType" : 64
-    },
-    "\/img\/screensizes.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/screensizes.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/screensizes.png",
-      "initialSize" : 13302,
-      "fileType" : 8192
-    },
-    "\/js\/libs\/language\/r.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/r.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/r.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo3\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo3\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -906,38 +218,199 @@
       "initialSize" : 306156,
       "fileType" : 8192
     },
-    "\/demo\/demo5\/index.html" : {
+    "\/img\/icons\/ipad.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/icons\/ipad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/ipad.png",
+      "initialSize" : 2838,
+      "fileType" : 8192
     },
-    "\/css\/libs\/fontawesome.scss" : {
+    "\/img\/android.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/android.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/android.png",
+      "initialSize" : 37962,
+      "fileType" : 8192
+    },
+    "\/img\/sr-fail2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/sr-fail2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/sr-fail2.png",
+      "initialSize" : 88121,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/language\/haskell.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/fontawesome.scss",
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/haskell.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/fontawesome.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/haskell.min.js",
+      "fileType" : 64
     },
-    "\/demo\/demo3\/css\/styles.scss" : {
+    "\/demo\/img\/placeholder-male.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.scss",
-      "outputStyle" : 3,
+      "inputAbbreviatedPath" : "\/demo\/img\/placeholder-male.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/demo\/img\/placeholder-male.jpg",
+      "initialSize" : 2834,
+      "fileType" : 4096
+    },
+    "\/img\/iphone-site3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/iphone-site3.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone-site3.png",
+      "initialSize" : 131067,
+      "fileType" : 8192
+    },
+    "\/demo\/demo4\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo4\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/display-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/display-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/display-site.png",
+      "initialSize" : 86769,
+      "fileType" : 8192
+    },
+    "\/src\/sass2.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass2.scss",
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.css",
+      "outputAbbreviatedPath" : "\/src\/sass2.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/demo\/demo7\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo7\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/icons\/iphone.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/iphone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/iphone.png",
+      "initialSize" : 2817,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery.animate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery.animate.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery.animate.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo4\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/src\/queries5.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/queries5.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/queries5.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/demo\/demo1\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo1\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/css\/libs\/fontawesome.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/css\/libs\/fontawesome.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/css\/libs\/fontawesome.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/src\/queries4.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/queries4.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/queries4.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/language\/scheme.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/scheme.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/scheme.min.js",
+      "fileType" : 64
     },
     "\/js\/libs\/language\/c.js" : {
       "ignoreWasSetByUser" : 0,
@@ -962,48 +435,69 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/icons\/favicon-32.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
-      "initialSize" : 2791,
-      "fileType" : 8192
-    },
-    "\/js\/libs\/language\/go.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/go.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/go.min.js",
-      "fileType" : 64
-    },
-    "\/src\/sass2.scss" : {
+    "\/src\/queries2.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass2.scss",
+      "inputAbbreviatedPath" : "\/src\/queries2.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/sass2.css",
+      "outputAbbreviatedPath" : "\/src\/queries2.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/demo7\/index.html" : {
+    "\/src\/boxsizing1.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing1.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/language\/ruby.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/ruby.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/ruby.min.js",
+      "fileType" : 64
+    },
+    "\/src\/queries1.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/queries1.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/queries1.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/index.html",
+      "inputAbbreviatedPath" : "\/js\/scripts.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/scripts.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo2\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/js\/libs\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1016,130 +510,175 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.min.js",
       "fileType" : 64
     },
-    "\/demo\/demo6\/css\/styles.scss" : {
+    "\/img\/vasttrafik-site.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.scss",
+      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "initialSize" : 28724,
+      "fileType" : 8192
+    },
+    "\/img\/icons\/ipad_2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
+      "initialSize" : 2965,
+      "fileType" : 8192
+    },
+    "\/demo\/demo7\/css\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.css",
+      "outputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/demo7\/js\/scripts.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo6\/index.html" : {
+    "\/img\/display.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo6\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/reload.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/reload.png",
+      "inputAbbreviatedPath" : "\/img\/display.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/reload.png",
-      "initialSize" : 1759,
+      "outputAbbreviatedPath" : "\/img\/display.png",
+      "initialSize" : 38282,
       "fileType" : 8192
     },
-    "\/demo\/demo7\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/demo\/demo1\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/icons\/ipad.png" : {
+    "\/demo\/demo4\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/ipad.png",
+      "inputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/iphone-site2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/iphone-site2.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/ipad.png",
-      "initialSize" : 2838,
+      "outputAbbreviatedPath" : "\/img\/iphone-site2.png",
+      "initialSize" : 107553,
       "fileType" : 8192
     },
-    "\/js\/libs\/language\/python.js" : {
+    "\/js\/libs\/language\/coffeescript.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/python.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/python.min.js",
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.min.js",
       "fileType" : 64
     },
-    "\/img\/systembolaget.png" : {
+    "\/demo\/demo1\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/systembolaget.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/systembolaget.png",
-      "initialSize" : 26086,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/img\/android.png" : {
+    "\/demo\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/android.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/android.png",
-      "initialSize" : 37962,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/demo\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/img\/icons\/iphone_2x.png" : {
+    "\/src\/grid1.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/iphone_2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/iphone_2x.png",
-      "initialSize" : 2918,
-      "fileType" : 8192
-    },
-    "\/src\/viewport.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/viewport.html",
+      "inputAbbreviatedPath" : "\/src\/grid1.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
+    },
+    "\/js\/libs\/language\/java.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/java.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/java.min.js",
+      "fileType" : 64
+    },
+    "\/src\/images.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/images.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/images.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/libs\/impress.console.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/impress.console.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/impress.console.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/libs\/normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/omegapoint.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/omegapoint.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/omegapoint.png",
+      "initialSize" : 39441,
+      "fileType" : 8192
     },
     "\/js\/libs\/language\/php.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1152,47 +691,148 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/php.min.js",
       "fileType" : 64
     },
-    "\/img\/icons\/iphone.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/iphone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/iphone.png",
-      "initialSize" : 2817,
-      "fileType" : 8192
-    },
-    "\/demo\/img\/placeholder-male.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/img\/placeholder-male.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/demo\/img\/placeholder-male.jpg",
-      "initialSize" : 2834,
-      "fileType" : 4096
-    },
-    "\/js\/libs\/language\/lua.js" : {
+    "\/css\/libs\/impress.console.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/lua.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/lua.min.js",
-      "fileType" : 64
-    },
-    "\/demo\/demo4\/css\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo4\/css\/styles.css",
+      "inputAbbreviatedPath" : "\/css\/libs\/impress.console.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/img\/display-site-grey.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/display-site-grey.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/display-site-grey.png",
+      "initialSize" : 2286964,
+      "fileType" : 8192
+    },
+    "\/demo\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/demo1\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo1\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/forward.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/forward.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/forward.png",
+      "initialSize" : 1616,
+      "fileType" : 8192
+    },
+    "\/demo\/demo7\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo7\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/demo6\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo6\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/iphone-site1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/iphone-site1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone-site1.png",
+      "initialSize" : 129394,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/language\/html.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/html.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/html.min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/language\/r.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/r.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/r.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo5\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/icons\/favicon-32.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
+      "initialSize" : 2791,
+      "fileType" : 8192
+    },
+    "\/css\/libs\/mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/icons\/favicon-16.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
+      "initialSize" : 2770,
+      "fileType" : 8192
     },
     "\/img\/ipad-ls.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1203,6 +843,216 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/ipad-ls.png",
       "initialSize" : 87888,
+      "fileType" : 8192
+    },
+    "\/demo\/demo4\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo4\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/ipad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad.png",
+      "initialSize" : 86849,
+      "fileType" : 8192
+    },
+    "\/src\/viewport.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/viewport.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/js\/libs\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/js\/libs\/jquery.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/demo\/js\/libs\/jquery.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo3\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo3\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/vasttrafik.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/vasttrafik.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/vasttrafik.png",
+      "initialSize" : 25603,
+      "fileType" : 8192
+    },
+    "\/css\/libs\/fontawesome.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/fontawesome.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/fontawesome.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/systembolaget-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/systembolaget-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/systembolaget-site.png",
+      "initialSize" : 33685,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/language\/generic.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/generic.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/generic.min.js",
+      "fileType" : 64
+    },
+    "\/indexOld.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/indexOld.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/demo1\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo1\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo\/demo5\/css\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/demo5\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/language\/css.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/css.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo2\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/demo2\/css\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/demo2\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/language\/go.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/go.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/go.min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/language\/javascript.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/javascript.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/javascript.min.js",
+      "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/img\/html5.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/img\/html5.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/demo\/img\/html5.png",
+      "initialSize" : 12452,
       "fileType" : 8192
     },
     "\/img\/html5.png" : {
@@ -1216,16 +1066,190 @@
       "initialSize" : 9421,
       "fileType" : 8192
     },
-    "\/img\/forward.png" : {
+    "\/demo\/demo7\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/forward.png",
+      "inputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/demo6\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo6\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/libs\/impress.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/libs\/impress.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/libs\/impress.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/language\/lua.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/lua.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/lua.min.js",
+      "fileType" : 64
+    },
+    "\/img\/systembolaget.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/systembolaget.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/forward.png",
-      "initialSize" : 1616,
+      "outputAbbreviatedPath" : "\/img\/systembolaget.png",
+      "initialSize" : 26086,
       "fileType" : 8192
+    },
+    "\/demo\/demo3\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo3\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/sr-fail1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/sr-fail1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/sr-fail1.png",
+      "initialSize" : 348919,
+      "fileType" : 8192
+    },
+    "\/src\/grid2.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/grid2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/screensizes.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/screensizes.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/screensizes.png",
+      "initialSize" : 13302,
+      "fileType" : 8192
+    },
+    "\/demo\/demo5\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/language\/python.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/python.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/python.min.js",
+      "fileType" : 64
+    },
+    "\/demo\/img\/html5-sticker.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/img\/html5-sticker.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/demo\/img\/html5-sticker.png",
+      "initialSize" : 26076,
+      "fileType" : 8192
+    },
+    "\/demo\/demo7\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo7\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/demo\/demo6\/css\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo6\/css\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/ipad-site-grey.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad-site-grey.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad-site-grey.png",
+      "initialSize" : 2287400,
+      "fileType" : 8192
+    },
+    "\/img\/back.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/back.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/back.png",
+      "initialSize" : 1611,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/impress.console.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/impress.console.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/impress.console.min.js",
+      "fileType" : 64
     },
     "\/js\/libs\/language\/shell.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1238,26 +1262,46 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/shell.min.js",
       "fileType" : 64
     },
-    "\/img\/systembolaget-site.png" : {
+    "\/img\/callista.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/systembolaget-site.png",
+      "inputAbbreviatedPath" : "\/img\/callista.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/systembolaget-site.png",
-      "initialSize" : 33685,
+      "outputAbbreviatedPath" : "\/img\/callista.png",
+      "initialSize" : 396690,
       "fileType" : 8192
     },
-    "\/css\/libs\/impress.console.scss" : {
+    "\/src\/boxsizing3.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing3.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/icons\/iphone_2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/libs\/impress.console.scss",
-      "outputStyle" : 3,
+      "inputAbbreviatedPath" : "\/img\/icons\/iphone_2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/iphone_2x.png",
+      "initialSize" : 2918,
+      "fileType" : 8192
+    },
+    "\/src\/sass1.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass1.scss",
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/libs\/impress.console.css",
+      "outputAbbreviatedPath" : "\/src\/sass1.css",
       "fileType" : 4,
       "debugStyle" : 0
     }

@@ -31,6 +31,10 @@ body {
     }
 }
 
+.notes {
+    display: none;
+}
+
 /*** Overview step ********************************************************************************/
 
 #overview {
@@ -54,7 +58,7 @@ body {
 
         background: rgba(0,0,0,0.5);
         color: #eee;
-        margin: 50px auto 0;
+        margin: 20px auto 0;
         padding: 20px 40px;
         width: 600px;
     }

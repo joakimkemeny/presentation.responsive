@@ -28,6 +28,17 @@
     var Responsive = {
 
         /**
+         * Attaches key handlers to enter full screen.
+         */
+        enterFullScreen : function () {
+            $(document).keypress(function (e) {
+                if (e.keyCode === 102) {
+                    document.getElementsByTagName("html")[0].webkitRequestFullScreen();
+                }
+            });
+        },
+
+        /**
          * Loads the demo for the current step into an iframe.
          */
         loadDemo : function (step) {
@@ -120,6 +131,7 @@
             Responsive.loadDemo($(this));
         });
 
-        Responsive.resizeBrowser();
+        Responsive.enterFullScreen();
+        //Responsive.resizeBrowser();
     });
 }());

@@ -8,8 +8,9 @@ $displayWidth: 950px;
 $iPadRatio: 185.7/650;
 $iPhoneRatio: 58.6/650;
 
-#intro-1 {
+/* Intro steps ---------------------------------------------------------------------------------- */
 
+#intro-1 {
     h1 {
         font-size: 85px;
         margin-bottom: 0;
@@ -34,50 +35,49 @@ $iPhoneRatio: 58.6/650;
         margin-top: 30px;
     }
     .logotype {
-        bottom: 150px;
+        bottom: 100px;
         left: 540px;
         position: absolute;
-        width: 200px;
+        width: 300px;
     }
     .site-display {
-        top: 400px;
-        right: 700px;
         position: absolute;
+        right: 700px;
+        top: 400px;
         width: $displayWidth;
     }
     .site-ipad {
         @include transform-rotate(-5deg);
 
-        top: 300px;
-        right: 650px;
         position: absolute;
+        right: 650px;
+        top: 300px;
         width: ($displayWidth * $iPadRatio);
-
     }
     .site-iphone {
         @include transform-rotate(5deg);
 
-        top: 500px;
-        right: 610px;
         position: absolute;
+        right: 610px;
+        top: 500px;
         width: ($displayWidth * $iPhoneRatio);
     }
 }
 
 #intro-2 {
     .site-ipad {
-        top: 100px;
-        right: 150px;
-        position: absolute;
         height: ($displayWidth * $iPadRatio) * 2;
+        position: absolute;
+        right: 150px;
+        top: 100px;
     }
 }
 
 #intro-3 {
     .site-ipad {
-        top: 30px;
-        right: 40px;
         position: absolute;
+        right: 40px;
+        top: 30px;
         width: ($displayWidth * $iPadRatio) * 2;
     }
 }
@@ -95,13 +95,13 @@ $iPhoneRatio: 58.6/650;
 #intro-6,
 #intro-7 {
     .site-iphone {
-        top: 50px;
-        right: 200px;
         position: absolute;
-        width: ($displayWidth * $iPhoneRatio)* 4;
-
+        right: 200px;
+        top: 50px;
+        width: ($displayWidth * $iPhoneRatio) * 4;
     }
 }
+
 
 #ignore-2-2,
 #domain-2-3,
@@ -259,6 +259,7 @@ $iPhoneRatio: 58.6/650;
         border-bottom: 0;
     }
 }
+
 #media-queries-4-2 {
     pre {
         @include border-radius-top(0);
@@ -274,6 +275,7 @@ $iPhoneRatio: 58.6/650;
         border-bottom: 0;
     }
 }
+
 #media-queries-4-4 {
     pre {
         @include border-radius-top(0);
@@ -281,7 +283,6 @@ $iPhoneRatio: 58.6/650;
         border-top: 0;
     }
 }
-
 
 #challenges-1,
 #challenges-1-2,

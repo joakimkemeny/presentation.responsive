@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 
     <meta charset="utf-8">
@@ -20,731 +20,240 @@
 
 </head>
 <body>
-    <div id="impress">
+<div id="impress">
 
-        <!-- Hint step ------------------------------------------------------------------------- -->
+<!-- Hint step ------------------------------------------------------------------------- -->
 
-        <div id="hint" class="step hint invisible" data-x="0" data-y="0" data-scale="0.001">
-            <div>
-                <p><b>Hi there!</b></p>
-                <p>This presentation works best in Chrome and Safari, bad in Firefox and worst (if
-                    at all) in Opera and Internet Explorer.</p>
-                <p>Use a <b>spacebar</b> or <b>arrow keys</b> to navigate and <b>.</b> to resize
-                    demos.</p>
-                <p>So, why don't you press spacebar to get started. I hope you will like it.</p>
-                <p>/Joakim</p>
-            </div>
-        </div>
-
-        <!-- Intro steps ----------------------------------------------------------------------- -->
-
-        <div id="intro-1" class="step" data-x="0" data-y="0">
-            <h1 class="medium">Responsive Web Design</h1>
-            <h2>An app is not enough</h2>
-            <h3>Joakim Kemeny</h3>
-            <h4>@joakimkemeny</h4>
-            <img src="img/omegapoint.png" class="logotype">
-            <img src="img/display-site.png" class="site-display">
-            <img src="img/ipad-site.png" class="site-ipad">
-            <img src="img/iphone-site1.png" class="site-iphone">
-
-            <div class="notes">
-                <p>Testanteckningar</p>
-            </div>
-        </div>
-        <div id="intro-2" class="step invisible" data-x="-270" data-y="93" data-scale="0.5"
-             data-rotate="85">
-            <img src="img/ipad-ls-site.png" class="site-ipad">
-        </div>
-        <div id="intro-3" class="step invisible" data-x="-365" data-y="95" data-scale="0.5"
-             data-rotate="-5">
-            <img src="img/ipad-site.png" class="site-ipad">
-        </div>
-        <div id="intro-4" class="step invisible" data-x="-650" data-y="383">
-            <img src="img/display-site.png" class="site-display">
-        </div>
-        <div id="intro-5" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-             data-rotate="5">
-            <img src="img/iphone-site1.png" class="site-iphone">
-        </div>
-        <div id="intro-6" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-             data-rotate="5">
-            <img src="img/iphone-site2.png" class="site-iphone">
-        </div>
-        <div id="intro-7" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-             data-rotate="5">
-            <img src="img/iphone-site3.png" class="site-iphone">
-        </div>
-
-        <!-- Ignore mobile steps --------------------------------------------------------------- -->
-
-        <div id="ignore-1" class="step" data-x="1500" data-y="0">
-            <ul class="option-list">
-                <li><span>1</span>Ignore mobile<span>Visitors will use a computer anyway</span></li>
-            </ul>
-        </div>
-        <div id="ignore-1-2" class="step invisible" data-x="1500" data-y="0">
-            <ul class="option-list">
-                <li><span>1</span>Ignore mobile<span>Visitors will use a computer anyway</span></li>
-                <li><span>2</span>Create m.company.com<span>Mobile visitors are only interested in a subset of the information</span>
-                </li>
-            </ul>
-        </div>
-        <div id="ignore-1-3" class="step invisible" data-x="1500" data-y="0">
-            <ul class="option-list">
-                <li><span>1</span>Ignore mobile<span>Visitors will use a computer anyway</span></li>
-                <li><span>2</span>Create m.company.com<span>Mobile visitors are only interested in a subset of the information</span>
-                </li>
-                <li><span>3</span>Create an
-                    app<span>Redirect all mobile visitors to the app stores</span></li>
-            </ul>
-        </div>
-        <div id="ignore-2" class="step center" data-x="1500" data-y="-1000">
-            <h1>Ignoring mobile is…</h1>
-        </div>
-        <div id="ignore-2-2" class="step center invisible" data-x="1500" data-y="-1000">
-            <h1>Ignoring mobile is…</h1>
-            <h2>Stupid!</h2>
-            <p class="links">
-                Get the facts at <a href="http://www.lukew.com">www.lukew.com</a>
-            </p>
-        </div>
-
-        <!-- Sub domain steps ------------------------------------------------------------------ -->
-
-        <div id="domain-1" class="step invisible" data-x="1500" data-y="0">
-            <ul class="option-list">
-                <li><span>1</span>Ignore mobile<span>Visitors will use a computer anyway</span></li>
-                <li><span>2</span>Create m.company.com<span>Mobile visitors are only interested in a subset of the information</span>
-                </li>
-                <li><span>3</span>Create an
-                    app<span>Redirect all mobile visitors to the app stores</span></li>
-            </ul>
-        </div>
-        <div id="domain-2" class="step center" data-x="1500" data-y="1000">
-            <h1>Creating m.company.com is…</h1>
-        </div>
-        <div id="domain-3" class="step" data-x="1500" data-y="2000">
-            <img src="img/sr-fail1.png" class="left-image">
-        </div>
-        <div id="domain-3-2" class="step invisible" data-x="1500" data-y="2000">
-            <img src="img/sr-fail1.png" class="left-image">
-            <img src="img/sr-fail2.png" class="right-image">
-        </div>
-        <div id="domain-3-3" class="step invisible" data-x="1500" data-y="2100">
-            <img src="img/sr-fail1.png" class="left-image">
-            <img src="img/sr-fail2.png" class="right-image">
-            <p class="links">
-                More examples at <a href="http://wtfmobileweb.com">wtfmobileweb.com</a>
-            </p>
-        </div>
-        <div id="domain-2-2" class="step center" data-x="1500" data-y="1000">
-            <h1>Creating m.company.com is…</h1>
-        </div>
-        <div id="domain-2-3" class="step center invisible" data-x="1500" data-y="1000">
-            <h1>Creating m.company.com is…</h1>
-            <h2>Not great!</h2>
-        </div>
-
-        <!-- App steps ------------------------------------------------------------------------- -->
-
-        <div id="app-1" class="step invisible" data-x="1500" data-y="0">
-            <ul class="option-list">
-                <li><span>1</span>Ignore mobile<span>Visitors will use a computer anyway</span></li>
-                <li><span>2</span>Create m.company.com<span>Mobile visitors are only interested in a subset of the information</span>
-                </li>
-                <li><span>3</span>Create an
-                    app<span>Redirect all mobile visitors to the app stores</span></li>
-            </ul>
-        </div>
-
-        <div id="app-2" class="step center" data-x="3000" data-y="0">
-            <h1>Creating an app is…</h1>
-        </div>
-        <div id="app-3" class="step invisible" data-x="4500" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="box">
-                <ul class="checklist">
-                    <li><i class="icon-check"></i> Will users use it every day?</li>
-                    <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
-                    <li><i class="icon-check-empty"></i> Does it need device access?</li>
-                </ul>
-            </div>
-        </div>
-        <div id="app-3-2" class="step invisible" data-x="4500" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="box">
-                <ul class="checklist">
-                    <li><i class="icon-check-empty"></i> Will users use it every day?</li>
-                    <li><i class="icon-check"></i> Should it talk to the users?</li>
-                    <li><i class="icon-check-empty"></i> Does it need device access?</li>
-                </ul>
-            </div>
-        </div>
-        <div id="app-3-3" class="step invisible" data-x="4500" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="box">
-                <ul class="checklist">
-                    <li><i class="icon-check-empty"></i> Will users use it every day?</li>
-                    <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
-                    <li><i class="icon-check"></i> Does it need device access?</li>
-                </ul>
-            </div>
-        </div>
-        <div id="app-4" class="step" data-x="6000" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="duel">
-                <img src="img/systembolaget.png">
-                <img src="img/systembolaget-site.png">
-            </div>
-            <div class="duel">
-                <img src="img/vasttrafik.png">
-                <img src="img/vasttrafik-site.png">
-            </div>
-        </div>
-        <div id="app-4-2" class="step invisible" data-x="6000" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="duel">
-                <img src="img/systembolaget.png" class="loser">
-                <img src="img/systembolaget-site.png">
-            </div>
-            <div class="duel">
-                <img src="img/vasttrafik.png">
-                <img src="img/vasttrafik-site.png">
-            </div>
-        </div>
-        <div id="app-4-3" class="step invisible" data-x="6000" data-y="0">
-            <h1>Create an App or a Site?</h1>
-            <div class="duel">
-                <img src="img/systembolaget.png" class="loser">
-                <img src="img/systembolaget-site.png">
-            </div>
-            <div class="duel">
-                <img src="img/vasttrafik.png">
-                <img src="img/vasttrafik-site.png" class="loser">
-            </div>
-        </div>
-
-        <div id="app-6" class="step" data-x="6000" data-y="-1000">
-            <h1>3997 different Android devices</h1>
-            <div class="box">
-                <img src="img/android.png">
-            </div>
-            <p class="links">
-                Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
-                opensignalmaps.com/reports/fragmentation.php</a>
-            </p>
-        </div>
-        <div id="app-7" class="step" data-x="4500" data-y="-1000">
-            <h1>Android screen resoultions</h1>
-            <div class="box">
-                <div class="scale">2:7</div>
-                <img src="img/screensizes.png">
-            </div>
-            <p class="links">
-                Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
-                opensignalmaps.com/reports/fragmentation.php</a>
-            </p>
-        </div>
-        <div id="app-8" class="step center" data-x="3000" data-y="-1000">
-            <h1 class="medium">Pixel density</h1>
-        </div>
-        <div id="app-8-2" class="step center invisible" data-x="3000" data-y="-1000">
-            <h1 class="medium">Pixel density</h1>
-            <div class="box ballon ballon-down">img.png</div>
-            <div class="box ballon ballon-down down2">img@2x.png</div>
-        </div>
-        <div id="app-8-3" class="step center invisible" data-x="3000" data-y="-1000">
-            <h1 class="medium">Pixel density</h1>
-            <div class="box ballon ballon-down">img.png</div>
-            <div class="box ballon ballon-down down2">img@2x.png</div>
-            <div class="box ballon ballon-up">ldpi</div>
-            <div class="box ballon ballon-up up2">mdpi</div>
-            <div class="box ballon ballon-up up3">hdpi</div>
-            <div class="box ballon ballon-up up4">xhdpi</div>
-        </div>
-        <div id="app-8-4" class="step center invisible" data-x="3000" data-y="-1000">
-            <h1 class="medium">Pixel density</h1>
-            <div class="box ballon ballon-down">img.png</div>
-            <div class="box ballon ballon-down down2">img@2x.png</div>
-            <div class="box ballon ballon-up">ldpi</div>
-            <div class="box ballon ballon-up up2">mdpi</div>
-            <div class="box ballon ballon-up up3">hdpi</div>
-            <div class="box ballon ballon-up up4">xhdpi</div>
-            <div class="box ballon ballon-up up5">tvdpi</div>
-        </div>
-        <div id="app-2-2" class="step center" data-x="3000" data-y="0">
-            <h1>Creating an app is…</h1>
-        </div>
-        <div id="app-2-3" class="step center invisible" data-x="3000" data-y="0">
-            <h1>Creating an app is…</h1>
-            <h2>Not enough!</h2>
-        </div>
-
-        <!-- Responsive steps ------------------------------------------------------------------ -->
-
-        <div id="responsive-1" class="step center" data-x="3000" data-y="1000">
-            <h1 class="medium">Responsive<br>Web Design</h1>
-        </div>
-        <div id="responsive-1-2" class="step center invisible" data-x="3000" data-y="1000">
-            <h1 class="medium">Responsive<br>Web Design</h1>
-            <div class="box ballon ballon-down">
-                Old concept…
-            </div>
-        </div>
-        <div id="responsive-1-2-2" class="step center invisible" data-x="3000" data-y="1000">
-            <h1 class="medium">Responsive<br>Web Design</h1>
-            <div class="box ballon ballon-down">
-                Old concept…
-            </div>
-            <div class="box ballon ballon-up">
-                …reinvented by Ethan Marcotte
-                <span>A List Apart, issue 306, 2010</span>
-            </div>
-        </div>
-
-        <!-- Step 0 steps ---------------------------------------------------------------------- -->
-
-        <div id="step-0-1" class="step" data-x="4500" data-y="1000">
-            <h1><span>Step 0.1</span> I know what I'm doing</h1>
-            <pre><code data-language="html" data-src="src/viewport.html"></code></pre>
-            <ul class="top-list small">
-                <li class="active">0</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="step-0-2" class="step invisible" data-x="6000" data-y="1000">
-            <h1><span>Step 0.2</span> Travel back in time</h1>
-            <div class="mobile">
-                <div class="test1"></div>
-            </div>
-            <pre><code data-language="css" data-src="src/boxsizing1.css"></code></pre>
-            <ul class="top-list small">
-                <li class="active">0</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="step-0-2-2" class="step invisible" data-x="6000" data-y="1000">
-            <h1><span>Step 0.2</span> Travel back in time</h1>
-            <div class="mobile">
-                <div class="test2"></div>
-            </div>
-            <pre><code data-language="css" data-src="src/boxsizing2.css"></code></pre>
-            <ul class="top-list small">
-                <li class="active">0</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="step-0-2-3" class="step invisible" data-x="6000" data-y="1000">
-            <h1><span>Step 0.2</span> Travel back in time</h1>
-            <div class="mobile">
-                <div class="test3"></div>
-            </div>
-            <pre><code data-language="css" data-src="src/boxsizing3.css"></code></pre>
-            <ul class="top-list small">
-                <li class="active">0</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-
-        <!-- Responsive grid steps ------------------------------------------------------------- -->
-
-        <div id="grid-1" class="step center" data-x="6000" data-y="2500">
-            <h1 class="medium">Flexible Grid</h1>
-            <ul class="top-list">
-                <li>0</li>
-                <li class="active">1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="grid-2" class="step invisible" data-x="7500" data-y="2500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo1/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="grid-3" class="step" data-x="9000" data-y="2500">
-            <h1>Creating a flexible grid</h1>
-            <pre><code data-language="css" data-src="src/grid1.css"></code></pre>
-            <ul class="top-list small">
-                <li>0</li>
-                <li class="active">1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="grid-3-2" class="step invisible" data-x="9000" data-y="2500">
-            <h1>Creating a flexible grid</h1>
-            <pre><code data-language="css" data-src="src/grid2.css"></code></pre>
-            <ul class="top-list small">
-                <li>0</li>
-                <li class="active">1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="step-0-3" class="step" data-x="9000" data-y="1500">
-            <h1><span>Step 0.3</span> Use a CSS preprocessor</h1>
-            <div class="distribute-horizontal">
-                <div class="box bubble">Variables</div>
-                <div class="box bubble">Functions</div>
-                <div class="box bubble">Operations</div>
-                <div class="box bubble">Nesting</div>
-                <div class="box bubble">Mixins</div>
-            </div>
-            <pre class="half-left"><code data-language="css"
-                                         data-src="src/sass1.scss"></code></pre>
-            <pre class="half-right"><code data-language="css"
-                                          data-src="src/sass2.scss"></code></pre>
-            <ul class="top-list small">
-                <li class="active">0</li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="step-0-3-2" class="step invisible" data-x="9000" data-y="1100">
-            <div class="box ballon ballon-down">
-                Sass<a href="http://sass-lang.com">sass-lang.com</a>
-            </div>
-            <div class="box ballon ballon-down">
-                LESS<a href="http://lesscss.org">lesscss.org</a>
-            </div>
-        </div>
-
-        <div id="grid-3-3" class="step invisible" data-x="9000" data-y="2500">
-            <h1>Creating a flexible grid</h1>
-            <pre><code data-language="css" data-src="src/grid2.scss"></code></pre>
-            <ul class="top-list small">
-                <li>0</li>
-                <li class="active">1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="grid-4" class="step" data-x="10500" data-y="2500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo3/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Flexible images steps ------------------------------------------------------------- -->
-
-        <div id="images-1" class="step center" data-x="10500" data-y="3500">
-            <h1 class="medium">Flexible images</h1>
-            <ul class="top-list">
-                <li>0</li>
-                <li>1</li>
-                <li class="active">2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="images-2" class="step" data-x="9000" data-y="3500">
-            <h1>Creating flexible images</h1>
-            <pre><code data-language="css" data-src="src/images.scss"></code></pre>
-            <p class="links">
-                Great tool <a href="http://modernizr.com">modernizr.com</a>
-            </p>
-            <ul class="top-list small">
-                <li>0</li>
-                <li>1</li>
-                <li class="active">2</li>
-                <li>3</li>
-            </ul>
-        </div>
-        <div id="images-3" class="step" data-x="7500" data-y="3500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo4/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Media queries steps --------------------------------------------------------------- -->
-
-        <div id="media-queries-1" class="step center" data-x="6000" data-y="3500">
-            <h1 class="medium">Media Queries</h1>
-            <ul class="top-list">
-                <li>0</li>
-                <li>1</li>
-                <li>2</li>
-                <li class="active">3</li>
-            </ul>
-        </div>
-        <div id="media-queries-2" class="step" data-x="4500" data-y="3500">
-            <h1>Using Media Queries</h1>
-            <pre><code data-language="css" data-src="src/queries1.scss"></code></pre>
-            <ul class="top-list small">
-                <li>0</li>
-                <li>1</li>
-                <li>2</li>
-                <li class="active">3</li>
-            </ul>
-        </div>
-        <div id="media-queries-3" class="step" data-x="3000" data-y="3500">
-            <h1>Where are the breakpoints?</h1>
-            <div class="table">
-                <table>
-                    <tr>
-                        <td>320px</td>
-                        <td>Phones in portrait mode</td>
-                    </tr>
-                    <tr>
-                        <td>480px</td>
-                        <td>Phones in landscape mode</td>
-                    </tr>
-                    <tr>
-                        <td>600px</td>
-                        <td>Smaller tablets in portrait mode</td>
-                    </tr>
-                    <tr>
-                        <td>768px</td>
-                        <td>Larger tablets in portrait mode</td>
-                    </tr>
-                    <tr>
-                        <td>1024px</td>
-                        <td>
-                            Larger tablets in landscape mode & smaller laptops
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>1200px</td>
-                        <td>Widescreen displays</td>
-                    </tr>
-                </table>
-            </div>
-            <ul class="top-list small">
-                <li>0</li>
-                <li>1</li>
-                <li>2</li>
-                <li class="active">3</li>
-            </ul>
-        </div>
-        <div id="media-queries-4" class="step" data-x="1500" data-y="3500">
-            <h1>Using Media Queries</h1>
-            <pre><code data-language="css" data-src="src/queries2.scss"></code></pre>
-        </div>
-        <div id="media-queries-4-2" class="step" data-x="1500" data-y="4000">
-            <pre><code data-language="css" data-src="src/queries3.scss"></code></pre>
-            <ul class="top-list small">
-                <li>0</li>
-                <li>1</li>
-                <li>2</li>
-                <li class="active">3</li>
-            </ul>
-        </div>
-        <div id="media-queries-5" class="step" data-x="1500" data-y="5000">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo5/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="media-queries-4-3" class="step" data-x="1500" data-y="6000">
-            <h1>Using Media Queries</h1>
-            <pre><code data-language="css" data-src="src/queries4.scss"></code></pre>
-        </div>
-        <div id="media-queries-4-4" class="step" data-x="1500" data-y="6600">
-            <pre><code data-language="css" data-src="src/queries5.scss"></code></pre>
-        </div>
-        <div id="media-queries-5-2" class="step" data-x="3000" data-y="6000">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo6/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="media-queries-6" class="step" data-x="3000" data-y="4500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>demo/demo7/index.html</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Challenges steps ------------------------------------------------------------------ -->
-
-        <div id="challenges-1" class="step center" data-x="4500" data-y="4500">
-            <h1 class="medium">Challenges</h1>
-        </div>
-        <div id="challenges-1-2" class="step center invisible" data-x="4500" data-y="4500">
-            <h1 class="medium">Challenges</h1>
-            <div class="box ballon ballon-down">
-                Images
-            </div>
-            <p class="links">
-                Great guide
-                <a href="http://css-tricks.com/which-responsive-images-solution-should-you-use">
-                    css-tricks.com/which-responsive-images-solution-should-you-use
-                </a>
-            </p>
-        </div>
-        <div id="challenges-1-3" class="step center invisible" data-x="4500" data-y="4500">
-            <h1 class="medium">Challenges</h1>
-            <div class="box ballon ballon-down">
-                Images
-            </div>
-            <div class="box ballon ballon-down down2">
-                Ads
-            </div>
-            <div class="box ballon ballon-up up2">
-                Performance
-            </div>
-        </div>
-
-        <!-- Demos steps ----------------------------------------------------------------------- -->
-
-        <div id="demo-1" class="step" data-x="6000" data-y="4500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>http://www.svt.se</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="demo-2" class="step" data-x="7500" data-y="4500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>http://css-tricks.com</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="demo-3" class="step" data-x="9000" data-y="4500">
-            <div class="browser">
-                <div class="toolbar">
-                    <div class="buttons">
-                        <button class="back"><i class="icon-arrow-left"></i></button>
-                        <button class="forward"><i class="icon-arrow-right"></i></button>
-                        <button class="refresh"><i class="icon-refresh"></i></button>
-                    </div>
-                    <div class="address">
-                        <div>http://bryanconnor.com</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Conclusions steps ----------------------------------------------------------------- -->
-
-        <div id="conclusions-1" class="step center" data-x="10500" data-y="4500">
-            <h1 class="medium">Conclusions</h1>
-        </div>
-        <div id="conclusions-1-2" class="step center invisible" data-x="10500" data-y="4500">
-            <h1 class="medium">Conclusions</h1>
-            <div class="box ballon ballon-down">THE way to create sites 2012…</div>
-        </div>
-        <div id="conclusions-1-3" class="step center invisible" data-x="10500" data-y="4500">
-            <h1 class="medium">Conclusions</h1>
-            <div class="box ballon ballon-down">THE way to create sites 2012…</div>
-            <div class="box ballon ballon-up">…but it doesn't always replace apps</div>
-        </div>
-
-        <div id="conclusions-1-4" class="step center invisible" data-x="10500" data-y="4500">
-            <h1 class="medium">Conclusions</h1>
-            <div class="box ballon ballon-down">We are back in 1997</div>
-        </div>
-        <div id="conclusions-1-5" class="step center invisible" data-x="10500" data-y="4500">
-            <h1 class="medium">Conclusions</h1>
-            <div class="box ballon ballon-down">We are back in 1997</div>
-            <div class="box ballon ballon-up">Frameworks</div>
-            <div class="box ballon ballon-up up2">Twitter</div>
-            <p class="links">
-                You should checkout <a href="http://twitter.github.com/bootstrap">twitter.github.com/bootstrap</a>
-                and follow <a href="http://twitter.com/brad_frost">@brad_frost</a>
-            </p>
-        </div>
-
-        <!-- Thank you step -------------------------------------------------------------------- -->
-
-        <div id="thank-you-1" class="step invisible" data-x="10500" data-y="4510"
-             data-scale="0.01"
-             data-rotate="180">
-            <h1 class="medium">Responsive Web Design</h1>
-            <h2>Thank you for coming!</h2>
-            <h3>Joakim Kemeny</h3>
-            <h4>@joakimkemeny</h4>
-            <h5>github.com/joakimkemeny</h5>
-            <img src="img/omegapoint.png" class="logotype">
-            <img src="img/display-site.png" class="site-display">
-            <img src="img/ipad-site.png" class="site-ipad">
-            <img src="img/iphone-site1.png" class="site-iphone">
-        </div>
-
-        <!-- Overview step --------------------------------------------------------------------- -->
-
-        <div id="overview" class="step" data-x="5000" data-y="2500"
-             data-scale="12"></div>
-
+<!--
+<div id="hint" class="step hint invisible" data-x="0" data-y="0" data-scale="0.001">
+    <div>
+        <p><b>Hi there!</b></p>
+        <p>
+            This presentation works best in Safari and Chrome, bad in Firefox and worst (if
+            at all) in Opera and Internet Explorer.
+        </p>
+        <p>
+            Use a <b>spacebar</b> or <b>arrow keys</b> to navigate, <b>f</b> for full screen
+            and <b>p</b> to open speaker notes.
+        </p>
+        <p>So, why don't you press spacebar to get started. I hope you will like it.</p>
+        <p>/Joakim</p>
     </div>
+</div>
+-->
 
-    <script src="js/scripts.min.js"></script>
+<!-- Intro steps ----------------------------------------------------------------------- -->
 
+<div id="intro-1" class="step" data-x="0" data-y="0">
+    <h1 class="medium">Responsive Web Design</h1>
+    <h2>An app is not enough</h2>
+    <h3>Joakim Kemeny</h3>
+    <h4>@joakimkemeny</h4>
+    <img src="img/callista.png" class="logotype">
+    <img src="img/display-site-grey.png" class="site-display">
+    <img src="img/ipad-site-grey.png" class="site-ipad">
+    <img src="img/iphone-site1-grey.png" class="site-iphone">
+
+    <div class="notes">
+        <p>Hello and welcome to the presentation "An app is not enough!"</p>
+        <p>
+            There is a lot of discussions regarding apps vs sites and native vs web. While
+            that debate is interesting the most important thing is getting your message
+            across to your customers and building useful applications that your users will
+            use, and love to use, regardless of what kind of device they are using.
+        </p>
+        <p>
+            In this talk I thought I'd show you a way you can do this today without
+            throwing away everything you know. There will be code and there will be some
+            examples so I hope you will like it.
+        </p>
+        <p>
+            My name is Joakim Kemeny and I work as a consultant with front end development
+            at Callista Enterprise. We have a small office here in Stockholm but I work
+            for our office in Gothenburg. Web and mobile are part of every assignment these
+            days and even if I don't do public web sites lite SVT or Boston Globe every day
+            I still benefit from the techniques that I'm going to show you today so
+            hopefully I will be able to give you some useful tips.
+        </p>
+        <p>So let's get started.</p>
+    </div>
+</div>
+<div id="intro-2" class="step invisible" data-x="-270" data-y="93" data-scale="0.5"
+     data-rotate="85">
+    <img src="img/ipad-ls-site.png" class="site-ipad">
+
+    <div class="notes">
+        <p>
+            This is the web site for Callista Enterprise and it's probably this way it is
+            supposed to look. It's not a very hip site but it's quite normal and there are
+            a lot of sites that looks like this.
+        </p>
+    </div>
+</div>
+<div id="intro-3" class="step invisible" data-x="-365" data-y="95" data-scale="0.5"
+     data-rotate="-5">
+    <img src="img/ipad-site.png" class="site-ipad">
+
+    <div class="notes">
+        <p>
+            This is also our site but it has been scaled to fit. Still perfectly usable.
+        </p>
+    </div>
+</div>
+<div id="intro-4" class="step invisible" data-x="-650" data-y="383">
+    <img src="img/display-site.png" class="site-display">
+
+    <div class="notes">
+        <p>
+            This is also our site. I guess our brand color is white? At lease there is an
+            awful lot of it if you look at the site like this.
+        </p>
+    </div>
+</div>
+<div id="intro-5" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+     data-rotate="5">
+    <img src="img/iphone-site1.png" class="site-iphone">
+
+    <div class="notes">
+        <p>
+            This is also our site. That's not really usable but I think I can see a bee in
+            the image. Let's zoom in.
+        </p>
+    </div>
+</div>
+<div id="intro-6" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+     data-rotate="5">
+    <img src="img/iphone-site2.png" class="site-iphone">
+
+    <div class="notes">
+        <p>
+            Yes, definitely a bee hive so I guess that Callista is in the bee hive
+            business. Let's swipe and look at the rest of the page.
+        </p>
+    </div>
+</div>
+<div id="intro-7" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+     data-rotate="5">
+    <img src="img/iphone-site3.png" class="site-iphone">
+
+    <div class="notes">
+        <p>That's better, now it makes sense (if you understand Swedish of cause).</p>
+        <p>
+            You may think it's a little bit strange that I choose our web site to show the
+            kind of problems that the web faces today. If our site had worked as I would
+            like it to do it would be a plain marketing plug but now it's quite the
+            opposite, right?
+        </p>
+        <p>
+            The fact is that I didn't choose this site because it's good or bad, I choose it
+            because it's a really good example of how the web works today. Hopefully I
+            will not be able to use this example for long.
+        </p>
+    </div>
+</div>
+
+<!-- Ignore mobile steps --------------------------------------------------------------- -->
+
+<div id="ignore-1" class="step" data-x="1500" data-y="0">
+    <ul class="option-list">
+        <li>
+            <span>1</span>Ignore mobile
+            <span>Visitors will use a computer anyway</span>
+        </li>
+    </ul>
+
+    <div class="notes">
+        <p>
+            So that was how I think that most of the web works today. Most of the sites out
+            there simply ignores mobile. Most people will use a computer anyway, right?
+        </p>
+        <p>
+            There are two other ways that we use to tackle mobile though.
+        </p>
+    </div>
+</div>
+<div id="ignore-1-2" class="step invisible" data-x="1500" data-y="0">
+    <ul class="option-list">
+        <li>
+            <span>1</span>Ignore mobile
+            <span>Visitors will use a computer anyway</span>
+        </li>
+        <li>
+            <span>2</span>Create m.company.com
+            <span>Mobile visitors are only interested in a subset of the information</span>
+        </li>
+    </ul>
+
+    <div class="notes">
+        <p>
+            First. We can always create a m.company.com site. We can show a phone number and maybe
+            the opening hours if it's a site for a store. No mobile users want all information
+            available on the desktop site, right?
+        </p>
+    </div>
+</div>
+<div id="ignore-1-3" class="step invisible" data-x="1500" data-y="0">
+    <ul class="option-list">
+        <li>
+            <span>1</span>Ignore mobile
+            <span>Visitors will use a computer anyway</span>
+        </li>
+        <li>
+            <span>2</span>Create m.company.com
+            <span>Mobile visitors are only interested in a subset of the information</span>
+        </li>
+        <li>
+            <span>3</span>Create an app
+            <span>Redirect all mobile visitors to the app stores</span>
+        </li>
+    </ul>
+
+    <div class="notes">
+        <p>
+            Or maybe you have a lot of money. A new budget is about to start and you need to spend
+            money to get new money so lets create an app. And while we are at it, let's detect
+            mobile users on our normal web site and redirect them all to the app stores. Everybody
+            wants to download our app, right?
+        </p>
+        <p>
+            So let’s dive a little bit deeper into these paths that you may take.
+        </p>
+    </div>
+</div>
+<div id="ignore-2" class="step center" data-x="1500" data-y="-1000">
+    <h1>Ignoring mobile is…</h1>
+
+    <div class="notes">
+        <p>So let's start with ignoring mobile.</p>
+        <p>
+            If this was a conference for management I would probably need to add 15 slides with
+            charts and number to backup this statement but since we are at the best developer
+            conference in Sweden I think that we can all agree that ignoring mobile is just stupid.
+        </p>
+    </div>
+</div>
+<div id="ignore-2-2" class="step center invisible" data-x="1500" data-y="-1000">
+    <h1>Ignoring mobile is…</h1>
+    <h2>Stupid!</h2>
+    <p class="links">
+        Get the facts at <a href="http://www.lukew.com">www.lukew.com</a>
+    </p>
+
+    <div class="notes">
+        <p>
+            Mobile is the future and if you still want the facts I suggest you checkout Luke
+            Wroblewski's site where he have a lot of numbers about this.
+        </p>
+        <p>I will add some links like this throughout the presentation so look out for them.</p>
+        <p>But let's not linger in the past, let's move forward.</p>
+    </div>
+</div>
+
+<!-- Overview step --------------------------------------------------------------------- -->
+
+<div id="overview" class="step" data-x="5000" data-y="2500" data-scale="12"></div>
+
+</div>
+<script src="js/scripts.min.js"></script>
 </body>
 </html>
