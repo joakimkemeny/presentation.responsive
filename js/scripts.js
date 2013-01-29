@@ -1,6 +1,7 @@
 // @codekit-prepend "libs/jquery.js"
 // @codekit-prepend "libs/jquery.animate.js"
 // @codekit-prepend "libs/impress.js"
+// @codekit-prepend "libs/impress.console.js"
 // @codekit-prepend "libs/rainbow.js"
 // @codekit-prepend "libs/language/c.js"
 // @codekit-prepend "libs/language/coffeescript.js"
