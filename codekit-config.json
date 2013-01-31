@@ -207,17 +207,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/ipad-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ipad-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ipad-site.png",
-      "initialSize" : 306156,
-      "fileType" : 8192
-    },
     "\/img\/icons\/ipad.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -238,6 +227,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/android.png",
       "initialSize" : 37962,
+      "fileType" : 8192
+    },
+    "\/img\/ipad-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ipad-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ipad-site.png",
+      "initialSize" : 306156,
       "fileType" : 8192
     },
     "\/img\/sr-fail2.png" : {
@@ -800,15 +800,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/icons\/favicon-32.png" : {
+    "\/img\/icons\/favicon-16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
+      "inputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
-      "initialSize" : 2791,
+      "outputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
+      "initialSize" : 2770,
       "fileType" : 8192
     },
     "\/css\/libs\/mixins.scss" : {
@@ -823,15 +823,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/icons\/favicon-16.png" : {
+    "\/img\/icons\/favicon-32.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
+      "inputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icons\/favicon-16.png",
-      "initialSize" : 2770,
+      "outputAbbreviatedPath" : "\/img\/icons\/favicon-32.png",
+      "initialSize" : 2791,
       "fileType" : 8192
     },
     "\/img\/ipad-ls.png" : {
@@ -981,6 +981,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/demo\/demo2\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/language\/css.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -991,15 +1000,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
       "fileType" : 64
-    },
-    "\/demo\/demo2\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/demo\/demo2\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
