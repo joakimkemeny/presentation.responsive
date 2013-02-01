@@ -113,17 +113,6 @@
       "initialSize" : 4413,
       "fileType" : 4096
     },
-    "\/img\/iphone.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/iphone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/iphone.png",
-      "initialSize" : 70539,
-      "fileType" : 8192
-    },
     "\/js\/libs\/language\/smalltalk.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -134,6 +123,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/language\/smalltalk.min.js",
       "fileType" : 64
+    },
+    "\/img\/iphone.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/iphone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/iphone.png",
+      "initialSize" : 70539,
+      "fileType" : 8192
     },
     "\/js\/libs\/language\/csharp.js" : {
       "ignoreWasSetByUser" : 0,
@@ -467,18 +467,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/ruby.min.js",
       "fileType" : 64
     },
-    "\/src\/queries1.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries1.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries1.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -510,16 +498,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.min.js",
       "fileType" : 64
     },
-    "\/img\/vasttrafik-site.png" : {
+    "\/src\/queries1.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "initialSize" : 28724,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/src\/queries1.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/queries1.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/icons\/ipad_2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -530,6 +519,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
       "initialSize" : 2965,
+      "fileType" : 8192
+    },
+    "\/img\/vasttrafik-site.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "initialSize" : 28724,
       "fileType" : 8192
     },
     "\/demo\/demo7\/css\/styles.scss" : {
@@ -1158,15 +1158,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/demo\/demo5\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/screensizes.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1177,6 +1168,15 @@
       "outputAbbreviatedPath" : "\/img\/screensizes.png",
       "initialSize" : 13302,
       "fileType" : 8192
+    },
+    "\/demo\/demo5\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/libs\/language\/python.js" : {
       "ignoreWasSetByUser" : 0,
