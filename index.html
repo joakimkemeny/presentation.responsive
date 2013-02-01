@@ -20,689 +20,792 @@
 
 </head>
 <body>
-<div id="impress">
+    <div id="impress">
 
-<!-- Hint step ------------------------------------------------------------------------- -->
+        <!-- Hint step ------------------------------------------------------------------------- -->
 
-<!--
-<div id="hint" class="step hint invisible" data-x="0" data-y="0" data-scale="0.001">
-    <div>
-        <p><b>Hi there!</b></p>
-        <p>
-            This presentation works best in Safari and Chrome, bad in Firefox and worst (if
-            at all) in Opera and Internet Explorer.
-        </p>
-        <p>
-            Use a <b>spacebar</b> or <b>arrow keys</b> to navigate, <b>f</b> for full screen
-            and <b>p</b> to open speaker notes.
-        </p>
-        <p>So, why don't you press spacebar to get started. I hope you will like it.</p>
-        <p>/Joakim</p>
+        <!--
+        <div id="hint" class="step hint invisible" data-x="0" data-y="0" data-scale="0.001">
+            <div>
+                <p><b>Hi there!</b></p>
+                <p>
+                    This presentation works best in Safari and Chrome, bad in Firefox and worst (if
+                    at all) in Opera and Internet Explorer.
+                </p>
+                <p>
+                    Use a <b>spacebar</b> or <b>arrow keys</b> to navigate, <b>f</b> for full screen
+                    and <b>p</b> to open speaker notes.
+                </p>
+                <p>So, why don't you press spacebar to get started. I hope you will like it.</p>
+                <p>/Joakim</p>
+            </div>
+        </div>
+        -->
+
+        <!-- Intro steps ----------------------------------------------------------------------- -->
+
+        <div id="intro-1" class="step" data-x="0" data-y="0">
+            <h1 class="medium">Responsive Web Design</h1>
+            <h2>An app is not enough</h2>
+            <h3>Joakim Kemeny</h3>
+            <h4>@joakimkemeny</h4>
+            <img src="img/callista.png" class="logotype">
+            <img src="img/display-site-grey.png" class="site-display">
+            <img src="img/ipad-site-grey.png" class="site-ipad">
+            <img src="img/iphone-site1-grey.png" class="site-iphone">
+
+            <div class="notes">
+                <p>Hello and welcome to the presentation "An app is not enough!"</p>
+                <p>
+                    There is a lot of discussions regarding apps vs sites and native vs web. While
+                    that debate is interesting the most important thing is getting your message
+                    across to your customers and building useful applications that your users will
+                    use, and love to use, regardless of what kind of device they are using.
+                </p>
+                <p>
+                    In this talk I thought I'd show you a way you can do this today without
+                    throwing away everything you know. There will be code and there will be some
+                    examples so I hope you will like it.
+                </p>
+                <p>
+                    My name is Joakim Kemeny and I work as a consultant with front end development
+                    at Callista Enterprise. We have a small office here in Stockholm but I work
+                    for our office in Gothenburg. Web and mobile are part of every assignment these
+                    days and even if I don't do public web sites lite SVT or Boston Globe every day
+                    I still benefit from the techniques that I'm going to show you today so
+                    hopefully I will be able to give you some useful tips.
+                </p>
+                <p>So let's get started.</p>
+            </div>
+        </div>
+        <div id="intro-2" class="step invisible" data-x="-270" data-y="93" data-scale="0.5"
+             data-rotate="85">
+            <img src="img/ipad-ls-site.png" class="site-ipad">
+
+            <div class="notes">
+                <p>
+                    This is the web site for Callista Enterprise and it's probably this way it is
+                    supposed to look. It's not a very hip site but it's quite normal and there are
+                    a lot of sites that looks like this.
+                </p>
+            </div>
+        </div>
+        <div id="intro-3" class="step invisible" data-x="-365" data-y="95" data-scale="0.5"
+             data-rotate="-5">
+            <img src="img/ipad-site.png" class="site-ipad">
+
+            <div class="notes">
+                <p>
+                    This is also our site but it has been scaled to fit. Still perfectly usable.
+                </p>
+            </div>
+        </div>
+        <div id="intro-4" class="step invisible" data-x="-650" data-y="383">
+            <img src="img/display-site.png" class="site-display">
+
+            <div class="notes">
+                <p>
+                    This is also our site. I guess our brand color is white? At lease there is an
+                    awful lot of it if you look at the site like this.
+                </p>
+            </div>
+        </div>
+        <div id="intro-5" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+             data-rotate="5">
+            <img src="img/iphone-site1.png" class="site-iphone">
+
+            <div class="notes">
+                <p>
+                    This is also our site. That's not really usable but I think I can see a bee in
+                    the image. Let's zoom in.
+                </p>
+            </div>
+        </div>
+        <div id="intro-6" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+             data-rotate="5">
+            <img src="img/iphone-site2.png" class="site-iphone">
+
+            <div class="notes">
+                <p>
+                    Yes, definitely a bee hive so I guess that Callista is in the bee hive
+                    business. Let's swipe and look at the rest of the page.
+                </p>
+            </div>
+        </div>
+        <div id="intro-7" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
+             data-rotate="5">
+            <img src="img/iphone-site3.png" class="site-iphone">
+
+            <div class="notes">
+                <p>That's better, now it makes sense (if you understand Swedish of cause).</p>
+                <p>
+                    You may think it's a little bit strange that I choose our web site to show the
+                    kind of problems that the web faces today. If our site had worked as I would
+                    like it to do it would be a plain marketing plug but now it's quite the
+                    opposite, right?
+                </p>
+                <p>
+                    The fact is that I didn't choose this site because it's good or bad, I choose it
+                    because it's a really good example of how the web works today. Hopefully I
+                    will not be able to use this example for long.
+                </p>
+            </div>
+        </div>
+
+        <!-- Ignore mobile steps --------------------------------------------------------------- -->
+
+        <div id="ignore-1" class="step" data-x="1500" data-y="0">
+            <ul class="option-list">
+                <li>
+                    <span>1</span>Ignore mobile
+                    <span>Visitors will use a computer anyway</span>
+                </li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    So that was how I think that most of the web works today. Most of the sites out
+                    there simply ignores mobile. Most people will use a computer anyway, right?
+                </p>
+                <p>
+                    There are two other ways that we use to tackle mobile though.
+                </p>
+            </div>
+        </div>
+        <div id="ignore-1-2" class="step invisible" data-x="1500" data-y="0">
+            <ul class="option-list">
+                <li>
+                    <span>1</span>Ignore mobile
+                    <span>Visitors will use a computer anyway</span>
+                </li>
+                <li>
+                    <span>2</span>Create m.company.com
+                    <span>Mobile visitors are only interested in a subset of the information</span>
+                </li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    First. We can always create a m.company.com site. We can show a phone number and
+                    maybe the opening hours if it's a site for a store. No mobile users want all
+                    information available on the desktop site, right?
+                </p>
+            </div>
+        </div>
+        <div id="ignore-1-3" class="step invisible" data-x="1500" data-y="0">
+            <ul class="option-list">
+                <li>
+                    <span>1</span>Ignore mobile
+                    <span>Visitors will use a computer anyway</span>
+                </li>
+                <li>
+                    <span>2</span>Create m.company.com
+                    <span>Mobile visitors are only interested in a subset of the information</span>
+                </li>
+                <li>
+                    <span>3</span>Create an app
+                    <span>Redirect all mobile visitors to the app stores</span>
+                </li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    Or maybe you have a lot of money. A new budget is about to start and you need to
+                    spend money to get new money so lets create an app. And while we are at it,
+                    let's detect mobile users on our normal web site and redirect them all to the
+                    app stores. Everybody wants to download our app, right?
+                </p>
+                <p>So let’s dive a little bit deeper into these paths that you may take.</p>
+            </div>
+        </div>
+        <div id="ignore-2" class="step center" data-x="1500" data-y="-1000">
+            <h1>Ignoring mobile is…</h1>
+
+            <div class="notes">
+                <p>So let's start with ignoring mobile.</p>
+                <p>
+                    If this was a conference for management I would probably need to add 15 slides
+                    with charts and number to backup this statement but since we are at the best
+                    developer conference in Sweden I think that we can all agree that ignoring
+                    mobile is just stupid.
+                </p>
+            </div>
+        </div>
+        <div id="ignore-2-2" class="step center invisible" data-x="1500" data-y="-1000">
+            <h1>Ignoring mobile is…</h1>
+            <h2>Stupid!</h2>
+            <p class="links">
+                Get the facts at <a href="http://www.lukew.com">www.lukew.com</a>
+            </p>
+
+            <div class="notes">
+                <p>
+                    Mobile is the future and if you still want the facts I suggest you checkout Luke
+                    Wroblewski's site where he have a lot of numbers about this.
+                </p>
+                <p>
+                    I will add some links like this throughout the presentation so look out for
+                    them.
+                </p>
+                <p>But let's not linger in the past, let's move forward.</p>
+            </div>
+        </div>
+
+        <!-- Sub domain steps ------------------------------------------------------------------ -->
+
+        <div id="domain-1" class="step invisible" data-x="1500" data-y="0">
+            <ul class="option-list">
+                <li>
+                    <span>1</span>Ignore mobile
+                    <span>Visitors will use a computer anyway</span>
+                </li>
+                <li>
+                    <span>2</span>Create m.company.com
+                    <span>Mobile visitors are only interested in a subset of the information</span>
+                </li>
+                <li>
+                    <span>3</span>Create an app
+                    <span>Redirect all mobile visitors to the app stores</span>
+                </li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    Let's move on to the next candidate on the list.
+                </p>
+            </div>
+        </div>
+        <div id="domain-2" class="step center" data-x="1500" data-y="1000">
+            <h1>Creating m.company.com is…</h1>
+
+            <div class="notes">
+                <p>
+                    So, a separate mobile site, that sounds good right? It can be in some cases but
+                    I have to say that I'm not convinced.
+                </p>
+                <p>
+                    On of the companies that was early adopters of this approach was Swedish Radio
+                    (SR). I even think they wan an award for this a couple of years back.
+                </p>
+                <p>
+                    However I was traveling by car about a half year ago or so. All of the sudden we
+                    had to stop due to a traffic accident. Of cause I picked up my phone and started
+                    looking for information about this and ended up on Swedish Radio Skaraborg.
+                </p>
+            </div>
+        </div>
+        <div id="domain-3" class="step" data-x="1500" data-y="2000">
+            <img src="img/sr-fail1.png" class="left-image">
+
+            <div class="notes">
+                <p>
+                    I was really happy about this because even though I don't think you can see much
+                    here I actually thought I could see something about the traffic. I zoomed in and
+                    yes, there was an entry about a traffic accident on E20 down there.
+                </p>
+                <p>Then the page disappeared, and this page appeared instead.</p>
+            </div>
+        </div>
+        <div id="domain-3-2" class="step invisible" data-x="1500" data-y="2000">
+            <img src="img/sr-fail1.png" class="left-image">
+            <img src="img/sr-fail2.png" class="right-image">
+
+            <div class="notes">
+                <p>
+                    So they detected that I was using a mobile browser and redirected me to their
+                    mobile site. The only problem was that the page was not available in the mobile
+                    version so no information for me.
+                </p>
+            </div>
+        </div>
+        <div id="domain-3-3" class="step invisible" data-x="1500" data-y="2100">
+            <img src="img/sr-fail1.png" class="left-image">
+            <img src="img/sr-fail2.png" class="right-image">
+            <p class="links">
+                More examples at <a href="http://wtfmobileweb.com">wtfmobileweb.com</a>
+            </p>
+
+            <div class="notes">
+                <p>
+                    There are so many examples of when the mobile experience really fails and you
+                    can find more at this link.
+                </p>
+            </div>
+        </div>
+        <div id="domain-2-2" class="step center" data-x="1500" data-y="1000">
+            <h1>Creating m.company.com is…</h1>
+
+            <div class="notes">
+                <p>
+                    This is the problem with the m.company.com approach. You have to maintain two
+                    different sets of pages and that is doomed to fail.
+                </p>
+                <p>So creating m.company.com is, well, it's not great.</p>
+            </div>
+        </div>
+        <div id="domain-2-3" class="step center invisible" data-x="1500" data-y="1000">
+            <h1>Creating m.company.com is…</h1>
+            <h2>Not great!</h2>
+
+            <div class="notes">
+                <p></p>
+            </div>
+        </div>
+
+        <!-- App steps ------------------------------------------------------------------------- -->
+
+        <div id="app-1" class="step invisible" data-x="1500" data-y="0">
+            <ul class="option-list">
+                <li>
+                    <span>1</span>Ignore mobile
+                    <span>Visitors will use a computer anyway</span>
+                </li>
+                <li>
+                    <span>2</span>Create m.company.com
+                    <span>Mobile visitors are only interested in a subset of the information</span>
+                </li>
+                <li>
+                    <span>3</span>Create an app
+                    <span>Redirect all mobile visitors to the app stores</span>
+                </li>
+            </ul>
+
+            <div class="notes">
+                <p>So that leaves us with the app way.</p>
+            </div>
+        </div>
+        <div id="app-2" class="step center" data-x="3000" data-y="0">
+            <h1>Creating an app is…</h1>
+
+            <div class="notes">
+                <p>
+                    Apps can be really great. I love developing iOS apps and in many cases I prefer
+                    an app over the web and I guess this leads us to the App vs Site discussion.
+                </p>
+                <p>
+                    For me there is no single answer but when question arises I tend to lean on
+                    these questions for guidance.
+                </p>
+            </div>
+        </div>
+        <div id="app-3" class="step invisible" data-x="4500" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="box">
+                <ul class="checklist">
+                    <li><i class="icon-check"></i> Will users use it every day?</li>
+                    <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
+                    <li><i class="icon-check-empty"></i> Does it need device access?</li>
+                </ul>
+            </div>
+
+            <div class="notes">
+                <p>
+                    How often am I going to use the application. I have 113 apps installed on my
+                    phone and it's not uncommon for people to have more. I don't want any more apps
+                    if I'm not going to use it often.
+                </p>
+            </div>
+        </div>
+        <div id="app-3-2" class="step invisible" data-x="4500" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="box">
+                <ul class="checklist">
+                    <li><i class="icon-check-empty"></i> Will users use it every day?</li>
+                    <li><i class="icon-check"></i> Should it talk to the users?</li>
+                    <li><i class="icon-check-empty"></i> Does it need device access?</li>
+                </ul>
+            </div>
+
+            <div class="notes">
+                <p>
+                    The next question is if the application is going to talk to me? By this I mean
+                    push notification.
+                </p>
+            </div>
+        </div>
+        <div id="app-3-3" class="step invisible" data-x="4500" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="box">
+                <ul class="checklist">
+                    <li><i class="icon-check-empty"></i> Will users use it every day?</li>
+                    <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
+                    <li><i class="icon-check"></i> Does it need device access?</li>
+                </ul>
+            </div>
+
+            <div class="notes">
+                <p>
+                    The final question is of cause if the application needs access to my device. Web
+                    sites can do some things but they will always be playing catchup with native
+                    applications.
+                </p>
+                <p>
+                    There are of cause other factors as well but they are more of a greyzone to me
+                    but if none of these are true, why create an app?
+                </p>
+            </div>
+        </div>
+        <div id="app-4" class="step" data-x="6000" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="duel">
+                <img src="img/systembolaget.png">
+                <img src="img/systembolaget-site.png">
+            </div>
+            <div class="duel">
+                <img src="img/vasttrafik.png">
+                <img src="img/vasttrafik-site.png">
+            </div>
+
+            <div class="notes">
+                <p>
+                    So here is an example. Here are two companies that have apps but no mobile site.
+                    Did they make the right choice?
+                </p>
+                <p>
+                    First we have Systembolaget. I don't know if there are anybody in the audience
+                    that are not familiar with Systembolaget but it's one of two places you get your
+                    beer, wine and liquor in Sweden, the other is of cause Germany.
+                </p>
+                <p>
+                    They have a great app. But will I use it everyday? Hopefully not. Do I want it
+                    to talk to me? Hey, we are running out of beer, hurry up before it's to late?
+                    No, not really. Does it need access to my device, I can't see why. So this a
+                    clear web site for me.
+                </p>
+            </div>
+        </div>
+        <div id="app-4-2" class="step invisible" data-x="6000" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="duel">
+                <img src="img/systembolaget.png" class="loser">
+                <img src="img/systembolaget-site.png">
+            </div>
+            <div class="duel">
+                <img src="img/vasttrafik.png">
+                <img src="img/vasttrafik-site.png">
+            </div>
+
+            <div class="notes">
+                <p>
+                    Next is Västtrafik, the company that i responsible for buses, trams and trains
+                    in western of Sweden and are famous for how easy it is to pay them the right
+                    amount of money.
+                </p>
+                <p>
+                    I use it everyday and I guess most people that travel a lot do. And wouldn't it
+                    be great if you could pick your favourite routes and be notified if you normal
+                    bus is late? It doesn't really need access to my phone yet but NFC would be
+                    great. So for me this is a clear app.
+                </p>
+            </div>
+        </div>
+        <div id="app-4-3" class="step invisible" data-x="6000" data-y="0">
+            <h1>Create an App or a Site?</h1>
+            <div class="duel">
+                <img src="img/systembolaget.png" class="loser">
+                <img src="img/systembolaget-site.png">
+            </div>
+            <div class="duel">
+                <img src="img/vasttrafik.png">
+                <img src="img/vasttrafik-site.png" class="loser">
+            </div>
+
+            <div class="notes">
+                <p>
+                    So this is one way of looking at it. The other is that it’s really hard to
+                    create a mobile app today. Let’s look at Android for a minute.
+                </p>
+            </div>
+        </div>
+        <div id="app-6" class="step" data-x="6000" data-y="-1000">
+            <h1>3997 different Android devices</h1>
+            <div class="box">
+                <img src="img/android.png">
+            </div>
+            <p class="links">
+                Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
+                opensignalmaps.com/reports/fragmentation.php</a>
+            </p>
+
+            <div class="notes">
+                <p>
+                    This picture is a little bit old now but it comes from a report from
+                    OpenSignalMaps where they tracked half a million downloads of their app. What
+                    they found was 3 997 different Android devices. Many of them are of cause not
+                    that different since they are considered to be different if they are from
+                    different manufacturers, have different version number, have different
+                    resolution, and so on, but still. This is remarkable.
+                </p>
+                <p>
+                    Some consider this a problem for open source, other see it the other way around
+                    but I think we can agree that it’s a challenge.
+                </p>
+            </div>
+        </div>
+        <div id="app-7" class="step" data-x="4500" data-y="-1000">
+            <h1>Android screen resoultions</h1>
+            <div class="box">
+                <div class="scale">2:7</div>
+                <img src="img/screensizes.png">
+            </div>
+            <p class="links">
+                Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
+                opensignalmaps.com/reports/fragmentation.php</a>
+            </p>
+
+            <div class="notes">
+                <p>
+                    An other way to look at the same report is to only focus on screen resolution.
+                    It reaches from 200 pixels to over 2000 and everything in between. How can we
+                    create apps that are flexible enough to handle this?
+                </p>
+            </div>
+        </div>
+        <div id="app-8" class="step center" data-x="3000" data-y="-1000">
+            <h1 class="medium">Pixel density</h1>
+
+            <div class="notes">
+                <p>
+                    Finally we have our newest friend in
+                    let’s-make-life-hard-for-the-developer-world – pixel densities. Phones have been
+                    struggling with this for a while now where a pixel is not always a pixel. But
+                    now when the new tablets and computers also are starting to use this technique
+                    you really notice the difference.
+                </p>
+            </div>
+        </div>
+        <div id="app-8-2" class="step center invisible" data-x="3000" data-y="-1000">
+            <h1 class="medium">Pixel density</h1>
+            <div class="box ballon ballon-down">img.png</div>
+            <div class="box ballon ballon-down down2">img@2x.png</div>
+
+            <div class="notes">
+                <p>Apple have two different pixel densities.</p>
+            </div>
+        </div>
+        <div id="app-8-3" class="step center invisible" data-x="3000" data-y="-1000">
+            <h1 class="medium">Pixel density</h1>
+            <div class="box ballon ballon-down">img.png</div>
+            <div class="box ballon ballon-down down2">img@2x.png</div>
+            <div class="box ballon ballon-up">ldpi</div>
+            <div class="box ballon ballon-up up2">mdpi</div>
+            <div class="box ballon ballon-up up3">hdpi</div>
+            <div class="box ballon ballon-up up4">xhdpi</div>
+
+            <div class="notes">
+                <p>Android have four or five depending on how you look at it.</p>
+            </div>
+        </div>
+        <div id="app-8-4" class="step center invisible" data-x="3000" data-y="-1000">
+            <h1 class="medium">Pixel density</h1>
+            <div class="box ballon ballon-down">img.png</div>
+            <div class="box ballon ballon-down down2">img@2x.png</div>
+            <div class="box ballon ballon-up">ldpi</div>
+            <div class="box ballon ballon-up up2">mdpi</div>
+            <div class="box ballon ballon-up up3">hdpi</div>
+            <div class="box ballon ballon-up up4">xhdpi</div>
+            <div class="box ballon ballon-up up5">tvdpi</div>
+
+            <div class="notes">
+                <p>
+                    But it’s hard and we really need to make our apps or web sites really really
+                    flexible.
+                </p>
+            </div>
+        </div>
+        <div id="app-2-2" class="step center" data-x="3000" data-y="0">
+            <h1>Creating an app is…</h1>
+
+            <div class="notes">
+                <p>So where does this leave us with creating apps.</p>
+                <p>
+                    It’s definitely an option but it’s hard to make apps that are flexible enough
+                    and for some use cases I don’t think it’s feasible at all.
+                </p>
+                <p>
+                    So creating an app is, you should probably see this one coming.
+                </p>
+            </div>
+        </div>
+        <div id="app-2-3" class="step center invisible" data-x="3000" data-y="0">
+            <h1>Creating an app is…</h1>
+            <h2>Not enough!</h2>
+
+            <div class="notes">
+                <p>Not enough!</p>
+                <p>So let's leave the why and talk about how to move forward.</p>
+            </div>
+        </div>
+
+        <!-- Responsive steps ------------------------------------------------------------------ -->
+
+        <div id="responsive-1" class="step center" data-x="3000" data-y="1000">
+            <h1 class="medium">Responsive<br>Web Design</h1>
+
+            <div class="notes">
+                <p>
+                    So for the last year or so Responsive Web Design has been one of those tools
+                    that I use everyday to create better web applications. Responsive Web
+                    Application is a way to design and implement your web sites and web applications
+                    so they can be respond to the device they are running on.
+                </p>
+                <p>
+                    It can be used to let a "normal" site work fine on mobile devices. It can be
+                    used to really take advantage to huge screens even though the normal user will
+                    probably use it on a tablet. It's a way of thinking and I consider it a tool to
+                    keep in my belt next to TDD and all other things that developers need to know.
+                </p>
+            </div>
+        </div>
+        <div id="responsive-1-2" class="step center invisible" data-x="3000" data-y="1000">
+            <h1 class="medium">Responsive<br>Web Design</h1>
+            <div class="box ballon ballon-down">
+                Old concept…
+            </div>
+
+            <div class="notes">
+                <p>
+                    So Responsive Web Design is not a new idea. When the web started it was way more
+                    responsive then it is today.
+                </p>
+                <p>
+                    The problem with those sites was that they where pretty boring and today be have
+                    become used to a much richer experience on the web and we don't want to loose
+                    that.
+                </p>
+            </div>
+        </div>
+        <div id="responsive-1-2-2" class="step center invisible" data-x="3000" data-y="1000">
+            <h1 class="medium">Responsive<br>Web Design</h1>
+            <div class="box ballon ballon-down">
+                Old concept…
+            </div>
+            <div class="box ballon ballon-up">
+                …reinvented by Ethan Marcotte
+                <span>A List Apart, issue 306, 2010</span>
+            </div>
+
+            <div class="notes">
+                <p>
+                    In 2010 the concept was reinvented by Ethan Marcotte in an article in A List
+                    Apart. The technique itself is not that hard to understand since it only
+                    consists of three small steps but applying them is much harder than it may seem
+                    at first.
+                </p>
+                <p>
+                    So let's dive into the technique and let's start with step 0.
+                </p>
+            </div>
+        </div>
+
+        <!-- Step 0 steps ---------------------------------------------------------------------- -->
+
+        <div id="step-0-1" class="step" data-x="4500" data-y="1000">
+            <h1><span>Step 0.1</span> I know what I'm doing</h1>
+            <pre><code data-language="html" data-src="src/viewport.html"></code></pre>
+            <ul class="top-list small">
+                <li class="current">0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    The first step in creating a responsive application is to let the browser know
+                    that you know what you are doing. If you don't do anything mobile devices will
+                    try to be smart and resize the content for you and that's not always what you
+                    want.
+                </p>
+                <p>
+                    So you probably understand this code. It's just standard HTML5. The secret here
+                    is the meta tag that tells the browser use the actual width of the device as the
+                    width. So that is step 0.1.
+                </p>
+            </div>
+        </div>
+        <div id="step-0-2" class="step invisible" data-x="6000" data-y="1000">
+            <h1><span>Step 0.2</span> Travel back in time</h1>
+            <div class="mobile">
+                <div class="test1"></div>
+            </div>
+            <pre><code data-language="css" data-src="src/boxsizing1.css"></code></pre>
+            <ul class="top-list small">
+                <li class="current">0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+
+            <div class="notes">
+                <p>The next step is 0.2, travel back in time.</p>
+                <p>
+                    I will show you an example. Here the blue square is the div with 100% width.
+                </p>
+            </div>
+        </div>
+        <div id="step-0-2-2" class="step invisible" data-x="6000" data-y="1000">
+            <h1><span>Step 0.2</span> Travel back in time</h1>
+            <div class="mobile">
+                <div class="test2"></div>
+            </div>
+            <pre><code data-language="css" data-src="src/boxsizing2.css"></code></pre>
+            <ul class="top-list small">
+                <li class="current">0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+
+            <div class="notes">
+                <p>
+                    Let's add some padding and a border. Now it's 100% + 38px. When the web was
+                    younger 100% was 100% but then the print people destroyed it by adding a box
+                    model called content box which is the default in all newer browsers. In this box
+                    model the width specifies the width of the content excluding paddings, margins
+                    and borders.
+                </p>
+                <p>
+                    When you are creating responsive applications I promise you that this will be a
+                    problem but fortunately it is really easy to switch back.
+                </p>
+            </div>
+        </div>
+        <div id="step-0-2-3" class="step invisible" data-x="6000" data-y="1000">
+            <h1><span>Step 0.2</span> Travel back in time</h1>
+            <div class="mobile">
+                <div class="test3"></div>
+            </div>
+            <pre><code data-language="css" data-src="src/boxsizing3.css"></code></pre>
+            <ul class="top-list small">
+                <li class="current">0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <p class="links">
+                See <a href="http://http://paulirish.com/2012/box-sizing-border-box-ftw">
+                paulirish.com/2012/box-sizing-border-box-ftw</a>
+            </p>
+
+            <div class="notes">
+                <p>
+                    A little CSS3 and your life seems sane again. Trust me, do this!
+                </p>
+            </div>
+        </div>
+
+        <!-- Overview step --------------------------------------------------------------------- -->
+
+        <div id="overview" class="step" data-x="5000" data-y="2500" data-scale="12"></div>
+
     </div>
-</div>
--->
-
-<!-- Intro steps ----------------------------------------------------------------------- -->
-
-<div id="intro-1" class="step" data-x="0" data-y="0">
-    <h1 class="medium">Responsive Web Design</h1>
-    <h2>An app is not enough</h2>
-    <h3>Joakim Kemeny</h3>
-    <h4>@joakimkemeny</h4>
-    <img src="img/callista.png" class="logotype">
-    <img src="img/display-site-grey.png" class="site-display">
-    <img src="img/ipad-site-grey.png" class="site-ipad">
-    <img src="img/iphone-site1-grey.png" class="site-iphone">
-
-    <div class="notes">
-        <p>Hello and welcome to the presentation "An app is not enough!"</p>
-        <p>
-            There is a lot of discussions regarding apps vs sites and native vs web. While
-            that debate is interesting the most important thing is getting your message
-            across to your customers and building useful applications that your users will
-            use, and love to use, regardless of what kind of device they are using.
-        </p>
-        <p>
-            In this talk I thought I'd show you a way you can do this today without
-            throwing away everything you know. There will be code and there will be some
-            examples so I hope you will like it.
-        </p>
-        <p>
-            My name is Joakim Kemeny and I work as a consultant with front end development
-            at Callista Enterprise. We have a small office here in Stockholm but I work
-            for our office in Gothenburg. Web and mobile are part of every assignment these
-            days and even if I don't do public web sites lite SVT or Boston Globe every day
-            I still benefit from the techniques that I'm going to show you today so
-            hopefully I will be able to give you some useful tips.
-        </p>
-        <p>So let's get started.</p>
-    </div>
-</div>
-<div id="intro-2" class="step invisible" data-x="-270" data-y="93" data-scale="0.5"
-     data-rotate="85">
-    <img src="img/ipad-ls-site.png" class="site-ipad">
-
-    <div class="notes">
-        <p>
-            This is the web site for Callista Enterprise and it's probably this way it is
-            supposed to look. It's not a very hip site but it's quite normal and there are
-            a lot of sites that looks like this.
-        </p>
-    </div>
-</div>
-<div id="intro-3" class="step invisible" data-x="-365" data-y="95" data-scale="0.5"
-     data-rotate="-5">
-    <img src="img/ipad-site.png" class="site-ipad">
-
-    <div class="notes">
-        <p>
-            This is also our site but it has been scaled to fit. Still perfectly usable.
-        </p>
-    </div>
-</div>
-<div id="intro-4" class="step invisible" data-x="-650" data-y="383">
-    <img src="img/display-site.png" class="site-display">
-
-    <div class="notes">
-        <p>
-            This is also our site. I guess our brand color is white? At lease there is an
-            awful lot of it if you look at the site like this.
-        </p>
-    </div>
-</div>
-<div id="intro-5" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-     data-rotate="5">
-    <img src="img/iphone-site1.png" class="site-iphone">
-
-    <div class="notes">
-        <p>
-            This is also our site. That's not really usable but I think I can see a bee in
-            the image. Let's zoom in.
-        </p>
-    </div>
-</div>
-<div id="intro-6" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-     data-rotate="5">
-    <img src="img/iphone-site2.png" class="site-iphone">
-
-    <div class="notes">
-        <p>
-            Yes, definitely a bee hive so I guess that Callista is in the bee hive
-            business. Let's swipe and look at the rest of the page.
-        </p>
-    </div>
-</div>
-<div id="intro-7" class="step invisible" data-x="-192" data-y="208" data-scale="0.25"
-     data-rotate="5">
-    <img src="img/iphone-site3.png" class="site-iphone">
-
-    <div class="notes">
-        <p>That's better, now it makes sense (if you understand Swedish of cause).</p>
-        <p>
-            You may think it's a little bit strange that I choose our web site to show the
-            kind of problems that the web faces today. If our site had worked as I would
-            like it to do it would be a plain marketing plug but now it's quite the
-            opposite, right?
-        </p>
-        <p>
-            The fact is that I didn't choose this site because it's good or bad, I choose it
-            because it's a really good example of how the web works today. Hopefully I
-            will not be able to use this example for long.
-        </p>
-    </div>
-</div>
-
-<!-- Ignore mobile steps --------------------------------------------------------------- -->
-
-<div id="ignore-1" class="step" data-x="1500" data-y="0">
-    <ul class="option-list">
-        <li>
-            <span>1</span>Ignore mobile
-            <span>Visitors will use a computer anyway</span>
-        </li>
-    </ul>
-
-    <div class="notes">
-        <p>
-            So that was how I think that most of the web works today. Most of the sites out
-            there simply ignores mobile. Most people will use a computer anyway, right?
-        </p>
-        <p>
-            There are two other ways that we use to tackle mobile though.
-        </p>
-    </div>
-</div>
-<div id="ignore-1-2" class="step invisible" data-x="1500" data-y="0">
-    <ul class="option-list">
-        <li>
-            <span>1</span>Ignore mobile
-            <span>Visitors will use a computer anyway</span>
-        </li>
-        <li>
-            <span>2</span>Create m.company.com
-            <span>Mobile visitors are only interested in a subset of the information</span>
-        </li>
-    </ul>
-
-    <div class="notes">
-        <p>
-            First. We can always create a m.company.com site. We can show a phone number and maybe
-            the opening hours if it's a site for a store. No mobile users want all information
-            available on the desktop site, right?
-        </p>
-    </div>
-</div>
-<div id="ignore-1-3" class="step invisible" data-x="1500" data-y="0">
-    <ul class="option-list">
-        <li>
-            <span>1</span>Ignore mobile
-            <span>Visitors will use a computer anyway</span>
-        </li>
-        <li>
-            <span>2</span>Create m.company.com
-            <span>Mobile visitors are only interested in a subset of the information</span>
-        </li>
-        <li>
-            <span>3</span>Create an app
-            <span>Redirect all mobile visitors to the app stores</span>
-        </li>
-    </ul>
-
-    <div class="notes">
-        <p>
-            Or maybe you have a lot of money. A new budget is about to start and you need to spend
-            money to get new money so lets create an app. And while we are at it, let's detect
-            mobile users on our normal web site and redirect them all to the app stores. Everybody
-            wants to download our app, right?
-        </p>
-        <p>
-            So let’s dive a little bit deeper into these paths that you may take.
-        </p>
-    </div>
-</div>
-<div id="ignore-2" class="step center" data-x="1500" data-y="-1000">
-    <h1>Ignoring mobile is…</h1>
-
-    <div class="notes">
-        <p>So let's start with ignoring mobile.</p>
-        <p>
-            If this was a conference for management I would probably need to add 15 slides with
-            charts and number to backup this statement but since we are at the best developer
-            conference in Sweden I think that we can all agree that ignoring mobile is just stupid.
-        </p>
-    </div>
-</div>
-<div id="ignore-2-2" class="step center invisible" data-x="1500" data-y="-1000">
-    <h1>Ignoring mobile is…</h1>
-    <h2>Stupid!</h2>
-    <p class="links">
-        Get the facts at <a href="http://www.lukew.com">www.lukew.com</a>
-    </p>
-
-    <div class="notes">
-        <p>
-            Mobile is the future and if you still want the facts I suggest you checkout Luke
-            Wroblewski's site where he have a lot of numbers about this.
-        </p>
-        <p>I will add some links like this throughout the presentation so look out for them.</p>
-        <p>But let's not linger in the past, let's move forward.</p>
-    </div>
-</div>
-
-<!-- Sub domain steps ------------------------------------------------------------------ -->
-
-<div id="domain-1" class="step invisible" data-x="1500" data-y="0">
-    <ul class="option-list">
-        <li>
-            <span>1</span>Ignore mobile
-            <span>Visitors will use a computer anyway</span>
-        </li>
-        <li>
-            <span>2</span>Create m.company.com
-            <span>Mobile visitors are only interested in a subset of the information</span>
-        </li>
-        <li>
-            <span>3</span>Create an app<span>
-            Redirect all mobile visitors to the app stores</span>
-        </li>
-    </ul>
-
-    <div class="notes">
-        <p>
-            Let's move on to the next candidate on the list.
-        </p>
-    </div>
-</div>
-<div id="domain-2" class="step center" data-x="1500" data-y="1000">
-    <h1>Creating m.company.com is…</h1>
-
-    <div class="notes">
-        <p>
-            So, a separate mobile site, that sounds good right? It can be in some cases but I have
-            to
-            say that I'm not convinced.
-        </p>
-        <p>
-            On of the companies that was early adopters of this approach was Swedish Radio (SR). I
-            even think they wan an award for this a couple of years back.
-        </p>
-        <p>
-            However I was traveling by car about a half year ago or so. All of the sudden we had to
-            stop due to a traffic accident. Of cause I picked up my phone and started looking for
-            information about this and ended up on Swedish Radio Skaraborg.
-        </p>
-    </div>
-</div>
-<div id="domain-3" class="step" data-x="1500" data-y="2000">
-    <img src="img/sr-fail1.png" class="left-image">
-
-    <div class="notes">
-        <p>
-            I was really happy about this because even though I don't think you can see much here
-            I actually thought I could see something about the traffic. I zoomed in and yes, there
-            was an entry about a traffic accident on E20 down there.
-        </p>
-        <p>Then the page disappeared, and this page appeared instead.</p>
-    </div>
-</div>
-<div id="domain-3-2" class="step invisible" data-x="1500" data-y="2000">
-    <img src="img/sr-fail1.png" class="left-image">
-    <img src="img/sr-fail2.png" class="right-image">
-
-    <div class="notes">
-        <p>
-            So they detected that I was using a mobile browser and redirected me to their mobile
-            site. The only problem was that the page was not available in the mobile version so no
-            information for me.
-        </p>
-    </div>
-</div>
-<div id="domain-3-3" class="step invisible" data-x="1500" data-y="2100">
-    <img src="img/sr-fail1.png" class="left-image">
-    <img src="img/sr-fail2.png" class="right-image">
-    <p class="links">
-        More examples at <a href="http://wtfmobileweb.com">wtfmobileweb.com</a>
-    </p>
-
-    <div class="notes">
-        <p>
-            There are so many examples of when the mobile experience really fails and you can find
-            more at this link.
-        </p>
-    </div>
-</div>
-<div id="domain-2-2" class="step center" data-x="1500" data-y="1000">
-    <h1>Creating m.company.com is…</h1>
-
-    <div class="notes">
-        <p>
-            This is the problem with the m.company.com approach. You have to maintain two different
-            sets of pages and that is doomed to fail.
-        </p>
-        <p>So creating m.company.com is, well, it's not great.</p>
-    </div>
-</div>
-<div id="domain-2-3" class="step center invisible" data-x="1500" data-y="1000">
-    <h1>Creating m.company.com is…</h1>
-    <h2>Not great!</h2>
-
-    <div class="notes">
-        <p></p>
-    </div>
-</div>
-
-<!-- App steps ------------------------------------------------------------------------- -->
-
-<div id="app-1" class="step invisible" data-x="1500" data-y="0">
-    <ul class="option-list">
-        <li>
-            <span>1</span>Ignore mobile
-            <span>Visitors will use a computer anyway</span>
-        </li>
-        <li>
-            <span>2</span>Create m.company.com
-            <span>Mobile visitors are only interested in a subset of the information</span>
-        </li>
-        <li>
-            <span>3</span>Create an app
-            <span>Redirect all mobile visitors to the app stores</span>
-        </li>
-    </ul>
-
-    <div class="notes">
-        <p>So that leaves us with the app way.</p>
-    </div>
-</div>
-<div id="app-2" class="step center" data-x="3000" data-y="0">
-    <h1>Creating an app is…</h1>
-
-    <div class="notes">
-        <p>
-            Apps can be really great. I love developing iOS apps and in many cases I prefer an
-            app over the web and I guess this leads us to the App vs Site discussion.
-        </p>
-        <p>
-            For me there is no single answer but when question arises I tend to lean on these
-            questions for guidance.
-        </p>
-    </div>
-</div>
-<div id="app-3" class="step invisible" data-x="4500" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="box">
-        <ul class="checklist">
-            <li><i class="icon-check"></i> Will users use it every day?</li>
-            <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
-            <li><i class="icon-check-empty"></i> Does it need device access?</li>
-        </ul>
+    <div class="print-mask">
+        <div>
+            <div></div>
+        </div>
     </div>
 
-    <div class="notes">
-        <p>
-            How often am I going to use the application. I have 113 apps installed on my phone and
-            it's not uncommon for people to have more. I don't want any more apps if I'm not going
-            to use it often.
-        </p>
-    </div>
-</div>
-<div id="app-3-2" class="step invisible" data-x="4500" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="box">
-        <ul class="checklist">
-            <li><i class="icon-check-empty"></i> Will users use it every day?</li>
-            <li><i class="icon-check"></i> Should it talk to the users?</li>
-            <li><i class="icon-check-empty"></i> Does it need device access?</li>
-        </ul>
-    </div>
-
-    <div class="notes">
-        <p>
-            The next question is if the application is going to talk to me? By this I mean push
-            notification.
-        </p>
-    </div>
-</div>
-<div id="app-3-3" class="step invisible" data-x="4500" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="box">
-        <ul class="checklist">
-            <li><i class="icon-check-empty"></i> Will users use it every day?</li>
-            <li><i class="icon-check-empty"></i> Should it talk to the users?</li>
-            <li><i class="icon-check"></i> Does it need device access?</li>
-        </ul>
-    </div>
-
-    <div class="notes">
-        <p>
-            The final question is of cause if the application needs access to my device. Web sites
-            can do some things but they will always be playing catchup with native applications.
-        </p>
-        <p>
-            There are of cause other factors as well but they are more of a greyzone to me but if
-            none of these are true, why create an app?
-        </p>
-    </div>
-</div>
-<div id="app-4" class="step" data-x="6000" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="duel">
-        <img src="img/systembolaget.png">
-        <img src="img/systembolaget-site.png">
-    </div>
-    <div class="duel">
-        <img src="img/vasttrafik.png">
-        <img src="img/vasttrafik-site.png">
-    </div>
-
-    <div class="notes">
-        <p>
-            So here is an example. Here are two companies that have apps but no mobile site. Did
-            they make the right choice?
-        </p>
-        <p>
-            First we have Systembolaget. I don't know if there are anybody in the audience that are
-            not familiar with Systembolaget but it's one of two places you get your beer, wine and
-            liquor in Sweden, the other is of cause Germany.
-        </p>
-        <p>
-            They have a great app. But will I use it everyday? Hopefully not. Do I want it to talk
-            to me? Hey, we are running out of beer, hurry up before it's to late? No, not really.
-            Does it need access to my device, I can't see why. So this a clear web site for me.
-        </p>
-    </div>
-</div>
-<div id="app-4-2" class="step invisible" data-x="6000" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="duel">
-        <img src="img/systembolaget.png" class="loser">
-        <img src="img/systembolaget-site.png">
-    </div>
-    <div class="duel">
-        <img src="img/vasttrafik.png">
-        <img src="img/vasttrafik-site.png">
-    </div>
-
-    <div class="notes">
-        <p>
-            Next is Västtrafik, the company that i responsible for buses, trams and trains in
-            western of Sweden and are famous for how easy it is to pay them the right amount of
-            money.
-        </p>
-        <p>
-            I use it everyday and I guess most people that travel a lot do. And wouldn't it be
-            great if you could pick your favourite routes and be notified if you normal bus is late?
-            It doesn't really need access to my phone yet but NFC would be great. So for me this is
-            a clear app.
-        </p>
-    </div>
-</div>
-<div id="app-4-3" class="step invisible" data-x="6000" data-y="0">
-    <h1>Create an App or a Site?</h1>
-    <div class="duel">
-        <img src="img/systembolaget.png" class="loser">
-        <img src="img/systembolaget-site.png">
-    </div>
-    <div class="duel">
-        <img src="img/vasttrafik.png">
-        <img src="img/vasttrafik-site.png" class="loser">
-    </div>
-
-    <div class="notes">
-        <p>
-            So this is one way of looking at it. The other is that it’s really hard to create a
-            mobile app today. Let’s look at Android for a minute.
-        </p>
-    </div>
-</div>
-<div id="app-6" class="step" data-x="6000" data-y="-1000">
-    <h1>3997 different Android devices</h1>
-    <div class="box">
-        <img src="img/android.png">
-    </div>
-    <p class="links">
-        Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
-        opensignalmaps.com/reports/fragmentation.php</a>
-    </p>
-
-    <div class="notes">
-        <p>
-            This picture is a little bit old now but it comes from a report from OpenSignalMaps
-            where they tracked half a million downloads of their app. What they found was 3 997
-            different Android devices. Many of them are of cause not that different since they are
-            considered to be different if they are from different manufacturers, have different
-            version number, have different resolution, and so on, but still. This is remarkable.
-        </p>
-        <p>
-            Some consider this a problem for open source, other see it the other way around but I
-            think we can agree that it’s a challenge.
-        </p>
-    </div>
-</div>
-<div id="app-7" class="step" data-x="4500" data-y="-1000">
-    <h1>Android screen resoultions</h1>
-    <div class="box">
-        <div class="scale">2:7</div>
-        <img src="img/screensizes.png">
-    </div>
-    <p class="links">
-        Source <a href="http://opensignalmaps.com/reports/fragmentation.php">
-        opensignalmaps.com/reports/fragmentation.php</a>
-    </p>
-
-    <div class="notes">
-        <p>
-            An other way to look at the same report is to only focus on screen resolution. It
-            reaches from 200 pixels to over 2000 and everything in between. How can we create apps
-            that are flexible enough to handle this?
-        </p>
-    </div>
-</div>
-<div id="app-8" class="step center" data-x="3000" data-y="-1000">
-    <h1 class="medium">Pixel density</h1>
-
-    <div class="notes">
-        <p>
-            Finally we have our newest friend in let’s-make-life-hard-for-the-developer-world –
-            pixel densities. Phones have been struggling with this for a while now where a pixel
-            is not always a pixel. But now when the new tablets and computers also are starting to
-            use this technique you really notice the difference.
-        </p>
-    </div>
-</div>
-<div id="app-8-2" class="step center invisible" data-x="3000" data-y="-1000">
-    <h1 class="medium">Pixel density</h1>
-    <div class="box ballon ballon-down">img.png</div>
-    <div class="box ballon ballon-down down2">img@2x.png</div>
-
-    <div class="notes">
-        <p>Apple have two different pixel densities.</p>
-    </div>
-</div>
-<div id="app-8-3" class="step center invisible" data-x="3000" data-y="-1000">
-    <h1 class="medium">Pixel density</h1>
-    <div class="box ballon ballon-down">img.png</div>
-    <div class="box ballon ballon-down down2">img@2x.png</div>
-    <div class="box ballon ballon-up">ldpi</div>
-    <div class="box ballon ballon-up up2">mdpi</div>
-    <div class="box ballon ballon-up up3">hdpi</div>
-    <div class="box ballon ballon-up up4">xhdpi</div>
-
-    <div class="notes">
-        <p>Android have four or five depending on how you look at it.</p>
-    </div>
-</div>
-<div id="app-8-4" class="step center invisible" data-x="3000" data-y="-1000">
-    <h1 class="medium">Pixel density</h1>
-    <div class="box ballon ballon-down">img.png</div>
-    <div class="box ballon ballon-down down2">img@2x.png</div>
-    <div class="box ballon ballon-up">ldpi</div>
-    <div class="box ballon ballon-up up2">mdpi</div>
-    <div class="box ballon ballon-up up3">hdpi</div>
-    <div class="box ballon ballon-up up4">xhdpi</div>
-    <div class="box ballon ballon-up up5">tvdpi</div>
-
-    <div class="notes">
-        <p>
-            But it’s hard and we really need to make our apps or web sites really really flexible.
-        </p>
-    </div>
-</div>
-<div id="app-2-2" class="step center" data-x="3000" data-y="0">
-    <h1>Creating an app is…</h1>
-
-    <div class="notes">
-        <p>So where does this leave us with creating apps.</p>
-        <p>
-            It’s definitely an option but it’s hard to make apps that are flexible enough and for
-            some use cases I don’t think it’s feasible at all.
-        </p>
-        <p>
-            So creating an app is, you should probably see this one coming.
-        </p>
-    </div>
-</div>
-<div id="app-2-3" class="step center invisible" data-x="3000" data-y="0">
-    <h1>Creating an app is…</h1>
-    <h2>Not enough!</h2>
-
-    <div class="notes">
-        <p>Not enough!</p>
-        <p>So let's leave the why and talk about how to move forward.</p>
-    </div>
-</div>
-
-<!-- Responsive steps ------------------------------------------------------------------ -->
-
-<div id="responsive-1" class="step center" data-x="3000" data-y="1000">
-    <h1 class="medium">Responsive<br>Web Design</h1>
-
-    <div class="notes">
-        <p>
-            So for the last year or so Responsive Web Design has been one of those tools that I use
-            everyday to create better web applications. Responsive Web Application is a way to
-            design and implement your web sites and web applications so they can be respond to the
-            device they are running on.
-        </p>
-        <p>
-            It can be used to let a "normal" site work fine on mobile devices. It can be used to
-            really take advantage to huge screens even though the normal user will probably use it
-            on a tablet. It's a way of thinking and I consider it a tool to keep in my belt next to
-            TDD and all other things that developers need to know.
-        </p>
-    </div>
-</div>
-<div id="responsive-1-2" class="step center invisible" data-x="3000" data-y="1000">
-    <h1 class="medium">Responsive<br>Web Design</h1>
-    <div class="box ballon ballon-down">
-        Old concept…
-    </div>
-
-    <div class="notes">
-        <p>
-            So Responsive Web Design is not a new idea. When the web started it was way more
-            responsive then it is today.
-        </p>
-        <p>
-            The problem with those sites was that they where pretty boring and today be have become
-            used to a much richer experience on the web and we don't want to loose that.
-        </p>
-    </div>
-</div>
-<div id="responsive-1-2-2" class="step center invisible" data-x="3000" data-y="1000">
-    <h1 class="medium">Responsive<br>Web Design</h1>
-    <div class="box ballon ballon-down">
-        Old concept…
-    </div>
-    <div class="box ballon ballon-up">
-        …reinvented by Ethan Marcotte
-        <span>A List Apart, issue 306, 2010</span>
-    </div>
-
-    <div class="notes">
-        <p>
-            In 2010 the concept was reinvented by Ethan Marcotte in an article in A List Apart.
-            The technique itself is not that hard to understand since it only consists of three
-            small steps but applying them is much harder than it may seem at first.
-        </p>
-        <p>
-            So let's dive into the technique and let's start with step 0.
-        </p>
-    </div>
-</div>
-
-<!-- Overview step --------------------------------------------------------------------- -->
-
-<div id="overview" class="step" data-x="5000" data-y="2500" data-scale="12"></div>
-
-
-</div>
-<div class="print-mask">
-    <div>
-        <div></div>
-    </div>
-</div>
-
-
-<script src="js/scripts.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 </html>

@@ -27,13 +27,6 @@
         '</div>' +
         '<div id="notes"></div>' +
         '</div>' +
-        '<div id="controls"> ' +
-        '<div id="prev"><a  href="#" onclick="impress().prev(); return false;" />Prev</a></div>' +
-        '<div id="next"><a  href="#" onclick="impress().next(); return false;" />Next</a></div>' +
-        '<div id="clock">00:00:00 AM</div>' +
-        '<div id="timer" onclick="timerReset()">00m 00s</div>' +
-        '<div id="status">Loading</div>' +
-        '</div>' +
         '</body></html>';
 
     // Default css location

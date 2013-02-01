@@ -10,7 +10,7 @@
       "inputAbbreviatedPath" : "\/img\/iphone-site1-grey.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/iphone-site1-grey.png",
-      "initialSize" : 865752,
+      "initialSize" : 1060783,
       "fileType" : 8192
     },
     "\/js\/libs\/impress.js" : {
@@ -467,6 +467,18 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/ruby.min.js",
       "fileType" : 64
     },
+    "\/src\/queries1.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/queries1.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/src\/queries1.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -498,17 +510,16 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.min.js",
       "fileType" : 64
     },
-    "\/src\/queries1.scss" : {
+    "\/img\/vasttrafik-site.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/queries1.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/src\/queries1.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
+      "initialSize" : 28724,
+      "fileType" : 8192
     },
     "\/img\/icons\/ipad_2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -519,17 +530,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
       "initialSize" : 2965,
-      "fileType" : 8192
-    },
-    "\/img\/vasttrafik-site.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/vasttrafik-site.png",
-      "initialSize" : 28724,
       "fileType" : 8192
     },
     "\/demo\/demo7\/css\/styles.scss" : {
@@ -668,17 +668,6 @@
       "outputAbbreviatedPath" : "\/css\/libs\/normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/omegapoint.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/omegapoint.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/omegapoint.png",
-      "initialSize" : 39441,
-      "fileType" : 8192
     },
     "\/js\/libs\/language\/php.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1158,6 +1147,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/demo\/demo5\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/screensizes.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1168,15 +1166,6 @@
       "outputAbbreviatedPath" : "\/img\/screensizes.png",
       "initialSize" : 13302,
       "fileType" : 8192
-    },
-    "\/demo\/demo5\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo5\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/js\/libs\/language\/python.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1226,7 +1215,7 @@
       "inputAbbreviatedPath" : "\/img\/ipad-site-grey.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/ipad-site-grey.png",
-      "initialSize" : 2287400,
+      "initialSize" : 3783702,
       "fileType" : 8192
     },
     "\/img\/back.png" : {
