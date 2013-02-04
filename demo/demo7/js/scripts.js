@@ -11,7 +11,7 @@
         createMenu : function () {
             $(".menu").click(function () {
                 var aside = $("aside");
-                if (aside.css("left") === "-90%") {
+                if (aside.css("left") === "-90%" || aside.css("left") !== "0px") {
                     aside.animate({ left : "0%" }, 1000);
                 } else {
                     aside.animate({ left : "-90%" }, 1000);

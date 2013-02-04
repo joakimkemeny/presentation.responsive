@@ -199,10 +199,10 @@ $iPhoneRatio: 58.6/650;
 
 #step-0-3-2 {
     .ballon-down {
-        left: 200px;
+        left: 500px;
         top: 230px;
-        &:last-child {
-            left: 500px;
+        &:first-child {
+            left: 200px;
         }
     }
 }
@@ -252,6 +252,14 @@ $iPhoneRatio: 58.6/650;
     }
 }
 
+#media-queries-3-2 {
+    .box {
+        height: 420px;
+        padding: 130px;
+        text-align: center;
+        font-size: 100px;
+    }
+}
 #media-queries-4 {
     pre {
         @include border-radius-bottom(0);
@@ -343,22 +351,22 @@ $iPhoneRatio: 58.6/650;
         text-align: right;
     }
     h3 {
-        margin-left: 450px;
+        margin-left: 500px;
         margin-top: 120px;
     }
     h4 {
-        margin-left: 450px;
+        margin-left: 500px;
         margin-top: 10px;
     }
     h5 {
-        margin-left: 450px;
+        margin-left: 500px;
         margin-top: 10px;
     }
     .logotype {
-        bottom: 120px;
-        left: 490px;
+        bottom: 80px;
+        left: 540px;
         position: absolute;
-        width: 200px;
+        width: 300px;
     }
     .site-display {
         top: 400px;
