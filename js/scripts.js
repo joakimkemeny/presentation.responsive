@@ -88,40 +88,36 @@
          * Attaches a key handlers to resize the browser.
          */
         resizeBrowser : function () {
-            $(document).keypress(function (e) {
-                if (e.keyCode === 46) {
-                    var $el;
-                    if (document.location.hash === "#/demo-1") {
-                        $el = $('#demo-1 .browser');
-                    } else if (document.location.hash === "#/demo-2") {
-                        $el = $('#demo-2 .browser');
-                    } else if (document.location.hash === "#/demo-3") {
-                        $el = $('#demo-3 .browser');
-                    } else if (document.location.hash === "#/grid-2") {
-                        $el = $('#grid-2 .browser');
-                    } else if (document.location.hash === "#/grid-4") {
-                        $el = $('#grid-4 .browser');
-                    } else if (document.location.hash === "#/images-3") {
-                        $el = $('#images-3 .browser');
-                    } else if (document.location.hash === "#/media-queries-5") {
-                        $el = $('#media-queries-5 .browser');
-                    } else if (document.location.hash === "#/media-queries-5-2") {
-                        $el = $('#media-queries-5-2 .browser');
-                    } else if (document.location.hash === "#/media-queries-6") {
-                        $el = $('#media-queries-6 .browser');
-                    }
+            var $el;
+            if (document.location.hash === "#/demo-1") {
+                $el = $('#demo-1 .browser');
+            } else if (document.location.hash === "#/demo-2") {
+                $el = $('#demo-2 .browser');
+            } else if (document.location.hash === "#/demo-3") {
+                $el = $('#demo-3 .browser');
+            } else if (document.location.hash === "#/grid-2") {
+                $el = $('#grid-2 .browser');
+            } else if (document.location.hash === "#/grid-4") {
+                $el = $('#grid-4 .browser');
+            } else if (document.location.hash === "#/images-3") {
+                $el = $('#images-3 .browser');
+            } else if (document.location.hash === "#/media-queries-5") {
+                $el = $('#media-queries-5 .browser');
+            } else if (document.location.hash === "#/media-queries-5-2") {
+                $el = $('#media-queries-5-2 .browser');
+            } else if (document.location.hash === "#/media-queries-6") {
+                $el = $('#media-queries-6 .browser');
+            }
 
-                    if ($el.width() > 778) {
-                        $el.animate({ width : 778 }, 3000, "linear");
-                    } else if ($el.width() > 490) {
-                        $el.animate({ width : 490 }, 5000, "linear");
-                    } else if ($el.width() > 330) {
-                        $el.animate({ width : 330 }, 3000, "linear");
-                    } else {
-                        $el.animate({ width : 990 }, 3000, "linear");
-                    }
-                }
-            });
+            if ($el.width() > 778) {
+                $el.animate({ width : 778 }, 2000, "linear");
+            } else if ($el.width() > 490) {
+                $el.animate({ width : 490 }, 2000, "linear");
+            } else if ($el.width() > 330) {
+                $el.animate({ width : 330 }, 2000, "linear");
+            } else {
+                $el.animate({ width : 990 }, 2000, "linear");
+            }
         }
     };
 
@@ -131,7 +127,10 @@
             Responsive.loadDemo($(this));
         });
 
+        window.addEventListener("message", Responsive.resizeBrowser, false);
+
+        $(".resize").click(Responsive.resizeBrowser);
+
         Responsive.enterFullScreen();
-        //Responsive.resizeBrowser();
     });
 }());

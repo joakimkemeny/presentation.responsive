@@ -260,8 +260,41 @@ h6 {
     .toolbar {
         background-color: $boxBorderColor;
         height: 47px;
-
         position: relative;
+
+        button {
+            @include border-radius(4px);
+            @include transition-all(0.2s);
+
+            border: 1px solid #999;
+            cursor: pointer;
+            float: left;
+            height: 32px;
+            margin-right: 10px;
+            padding: 0 9px 0 9px;
+            //width: 32px;
+
+            &:hover {
+                background-color: #999;
+            }
+
+            &.back {
+                @include border-radius-right(0);
+
+                margin-right: 0;
+                border-right: 0;
+            }
+
+            &.forward {
+                @include border-radius-left(0);
+            }
+
+            i {
+                float: left;
+                font-size: 17px;
+                line-height: 32px;
+            }
+        }
 
         .buttons {
             float: left;
@@ -269,46 +302,12 @@ h6 {
             position: absolute;
             top: 5px;
             width: 150px;
-
-            button {
-                @include border-radius(4px);
-                @include transition-all(0.2s);
-
-                border: 1px solid #999;
-                cursor: pointer;
-                float: left;
-                height: 32px;
-                margin-right: 10px;
-                padding: 0 9px 0 9px;
-                //width: 32px;
-
-                &:hover {
-                    background-color: #999;
-                }
-
-                &.back {
-                    @include border-radius-right(0);
-
-                    margin-right: 0;
-                    border-right: 0;
-                }
-
-                &.forward {
-                    @include border-radius-left(0);
-                }
-
-                i {
-                    float: left;
-                    font-size: 17px;
-                    line-height: 32px;
-                }
-            }
         }
 
         .address {
             left: 126px;
             position: absolute;
-            right: 5px;
+            right: 52px;
             top: 5px;
 
             div {
@@ -324,6 +323,12 @@ h6 {
                 text-overflow: ellipsis;
                 width: 100%;
             }
+        }
+
+        .resize {
+            position: absolute;
+            right: -5px;
+            top: 5px;
         }
     }
 
