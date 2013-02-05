@@ -400,7 +400,7 @@
 
             <div class="notes">
                 <p>
-                    How often am I going to use the application. I have 113 apps installed on my
+                    How often am I going to use the application. I have 99 apps installed on my
                     phone and it's not uncommon for people to have more. I don't want any more apps
                     if I'm not going to use it often.
                 </p>
@@ -647,7 +647,7 @@
                     So for the last year or so Responsive Web Design has been one of those tools
                     that I use everyday to create better web applications. Responsive Web
                     Application is a way to design and implement your web sites and web applications
-                    so they can be respond to the device they are running on.
+                    so they can respond to the device they are running on.
                 </p>
                 <p>
                     It can be used to let a "normal" site work fine on mobile devices. It can be
@@ -807,7 +807,11 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Let's go back to the actual steps in creating a responsive design. The first
+                    step is creating a flexible grid. To show you this I will introduce you to my
+                    demo application that I will use today.
+                </p>
             </div>
         </div>
         <div id="grid-2" class="step invisible" data-x="7500" data-y="2500">
@@ -826,7 +830,19 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Here it is. It is actually a site for a new really cool conference that will
+                    take place in Gothenburg someday. It is a normal site as you can see, you can
+                    get some information about the conference. You can register for the conference
+                    and you can see information about the speakers.
+                </p>
+                <p>
+                    Let's see what happens when you resize the browser.
+                </p>
+                <p>
+                    As you can see it doesn't care. The application just disappears and you have to
+                    scroll so see all of the content.
+                </p>
             </div>
         </div>
         <div id="grid-3" class="step" data-x="9000" data-y="2500">
@@ -840,7 +856,14 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So here are the relevant lines from the css of this site. You can see that you
+                    we have a wrapper, and inside that wrapper we have content and an aside element.
+                </p>
+                <p>
+                    The first step in creating a flexible grid is to make sure that we have no fixed
+                    widths in our code.
+                </p>
             </div>
         </div>
         <div id="grid-3-2" class="step invisible" data-x="9000" data-y="2500">
@@ -854,7 +877,14 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So instead we set the width to be relative to the wrapper and set a maximum
+                    width for the wrapper.
+                </p>
+                <p>
+                    This looks quite awful, doesn't it? You really need all those decimals and
+                    we use comments to understand what we are doing. That leads us to step 0.3.
+                </p>
             </div>
         </div>
         <div id="step-0-3" class="step" data-x="9000" data-y="1500">
@@ -878,7 +908,19 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Use a CSS preprocessor. If you don't know what that is, CSS preprocessors is a
+                    way to write CSS in a way that makes sense and that is maintainable.
+                </p>
+                <p>
+                    You can use variables in you code. You can use functions, for instance to
+                    darken the color as you see here. You can use operations to do calculations. You
+                    can also nest your rules and do more advanced things like collecting rules
+                    inside a mixin and use it in multiple places.
+                </p>
+                <p>
+                    There are multiple options available but the two most popular are Sass and LESS.
+                </p>
             </div>
         </div>
         <div id="step-0-3-2" class="step invisible" data-x="9000" data-y="1100">
@@ -890,7 +932,14 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    This is not a talk on CSS preprocessors but I highly recommend that you check it
+                    out. And to make this talk more readable I will use it in my slides going
+                    forward.
+                </p>
+                <p>
+                    Back to our flexible grid.
+                </p>
             </div>
         </div>
 
@@ -905,7 +954,10 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So here I used the percentage function to calculate the widths and I also
+                    nested the rules to make it a little bit more clear.
+                </p>
             </div>
         </div>
         <div id="grid-4" class="step" data-x="10500" data-y="2500">
@@ -924,7 +976,14 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So back to our demo, how is it doing now?
+                </p>
+                <p>
+                    You can see that it is resizing it self nicely but it doesn't look good. There
+                    are a lot of problems here but the biggest one is probably the image so let's
+                    start there.
+                </p>
             </div>
         </div>
 
@@ -939,9 +998,11 @@
                 <li>3</li>
             </ul>
 
-
             <div class="notes">
-                <p></p>
+                <p>
+                    Flexible images is the next step in creating a responsive site and there is a
+                    really simple solution to this.
+                </p>
             </div>
         </div>
         <div id="images-2" class="step" data-x="9000" data-y="3500">
@@ -958,7 +1019,15 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Just add 100% as the maximum width of the image. This works fine in all browsers
+                    except Internet Explorer 6 but in Internet Explorer 6 setting width to 100% is
+                    almost the same thing to you can use that.
+                </p>
+                <p>
+                    As you see here I've used a ie6-class and it is the way it's done with Modernizr
+                    for instance.
+                </p>
             </div>
         </div>
         <div id="images-3" class="step" data-x="7500" data-y="3500">
@@ -977,7 +1046,14 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Time for attempt 2.
+                </p>
+                <p>
+                    This works much better but there are still some problems when the browser gets
+                    really small. So we need something cooler to handle this and the cool stuff that
+                    is step 3 in creating a responsive site is media queries.
+                </p>
             </div>
         </div>
 
@@ -993,7 +1069,14 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Media queries is a way of applying style to an element only if a specific
+                    criteria is met. So maybe we want to hide some images for mobile users or maybe
+                    we want to use hi resolution images for retina displays.
+                </p>
+                <p>
+                    Let's see what we can do.
+                </p>
             </div>
         </div>
         <div id="media-queries-2" class="step" data-x="4500" data-y="3500">
@@ -1007,7 +1090,17 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    The first thing we can do is to check the width. So in this case we can change
+                    the background color if the width is smaller than 480px.
+                </p>
+                <p>
+                    You can also check for a lot of different parameters such as device orientation,
+                    height, pixel density and so on but in this talk I'll focus in the width.
+                </p>
+                <p>
+                    So the widths where we change the behaviour is called breakpoints.
+                </p>
             </div>
         </div>
         <div id="media-queries-3" class="step" data-x="3000" data-y="3500">
@@ -1050,7 +1143,20 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    And the first thing you need to decide is where those breakpoints are. And here
+                    are some breakpoint you may consider.
+                </p>
+                <p>
+                    This is a quite bad way of doing it though. As you saw earlier in the
+                    presentation it's not this simple. There is a device for every resolution and
+                    maybe you don't want to target mobile, how about bigger screens.
+                </p>
+                <p>
+                    In my current project for instance my main use of responsive design is to make
+                    sure that the operators can use my application on a tablets as well as on a huge
+                    screen. Just scaling it isn't enough.
+                </p>
             </div>
         </div>
         <div id="media-queries-3-2" class="step invisible" data-x="3000" data-y="3500">
@@ -1066,7 +1172,18 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So basically this is what you do. You start with the smallest size you want to
+                    support. Make sure it looks good and then start resizing. When it doesn't look
+                    good any more, there is your first breakpoint.
+                </p>
+                <p>
+                    Continue doing this until you cover all of the resolutions that you want to
+                    support. 4096 was the biggest that I could find but maybe you need to go higher.
+                </p>
+                <p>
+                    Let's see if this can improve our demo.
+                </p>
             </div>
         </div>
         <div id="media-queries-4" class="step" data-x="1500" data-y="3500">
@@ -1074,7 +1191,10 @@
             <pre><code data-language="css" data-src="src/queries2.scss"></code></pre>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Here you can see the layout code for the demo. It's floated as you may have
+                    expected. How can we fix this.
+                </p>
             </div>
         </div>
         <div id="media-queries-4-2" class="step" data-x="1500" data-y="4000">
@@ -1087,7 +1207,14 @@
             </ul>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So I've noticed that the layout breaks around 600px so I add a breakpoint there
+                    and instead of floating them I let them take the entire width and be placed on
+                    top of each other.
+                </p>
+                <p>
+                    Let's check it out.
+                </p>
             </div>
         </div>
         <div id="media-queries-5" class="step" data-x="1500" data-y="5000">
@@ -1106,7 +1233,10 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Now you can see that the registration form is moved to the bottom when the width
+                    is to small and that looks much better. Let's fix the header as well.
+                </p>
             </div>
         </div>
         <div id="media-queries-4-3" class="step" data-x="1500" data-y="6000">
@@ -1114,14 +1244,22 @@
             <pre><code data-language="css" data-src="src/queries4.scss"></code></pre>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    Let's play with the margins and float of the header a little bit.
+                </p>
             </div>
         </div>
         <div id="media-queries-4-4" class="step" data-x="1500" data-y="6600">
             <pre><code data-language="css" data-src="src/queries5.scss"></code></pre>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    And let's do the same with the navigation bar.
+                </p>
+                <p>
+                    You can get into the details of the code later if you want to but let's see what
+                    happens to our demo.
+                </p>
             </div>
         </div>
         <div id="media-queries-5-2" class="step" data-x="3000" data-y="6000">
@@ -1140,7 +1278,13 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    You can see that the navigation moves and the links actually gets bigger cause
+                    everything should not be made smaller just because the screen gets smaller.
+                </p>
+                <p>
+                    You also see that the logotype is dropped entirely for really small devices.
+                </p>
             </div>
         </div>
         <div id="media-queries-6" class="step" data-x="3000" data-y="4500">
@@ -1159,7 +1303,16 @@
             </div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    These are the three steps that you need to know and as I said earlier, they are
+                    not that difficult. Now it's up to you to do something cool with it. Maybe you
+                    want to move the registration form into a popup instead as you can se here. Or
+                    anything you can think of.
+                </p>
+                <p>
+                    <i>I have shown you all this using an embedded iframe here but just to show you
+                        that it actually works on smaller devices let me show it to you.</i>
+                </p>
             </div>
         </div>
 
@@ -1169,7 +1322,10 @@
             <h1 class="medium">Challenges</h1>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So that looks quite good but there is always a darker side. What are the
+                    challenges with this way of designing sites and applications.
+                </p>
             </div>
         </div>
         <div id="challenges-1-2" class="step center invisible" data-x="4500" data-y="4500">
@@ -1185,7 +1341,18 @@
             </p>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    First of all images. It's not good enough to show the same image to a desktop
+                    browser as on a mobile browser and how can we serve different images for retina
+                    vs non-retina.
+                </p>
+                <p>
+                    There have been a lot a discussions about this in the last year and there is now
+                    a proposal from W3C about this called the picture-element. But until that gets
+                    implemented by the browser vendors you need to have another solution and there
+                    are a lot of different solutions available and you may check them out for
+                    your self.
+                </p>
             </div>
         </div>
         <div id="challenges-1-3" class="step center invisible" data-x="4500" data-y="4500">
@@ -1206,7 +1373,22 @@
                 </a>
             </p>
             <div class="notes">
-                <p></p>
+                <p>
+                    There is also a problem if your site need to deal with ads but the biggest issue
+                    is performance.
+                </p>
+                <p>
+                    It's very easy to just hide elements on the page but if you see less, you should
+                    also download less. Simone Bordet talked about the average page size yesterday
+                    in their talk about SPDY. He said that the average site of a web page is 1 MB.
+                    That number has actually gone up and is now 1.25 MB. The problem with this is
+                    that 86% of all responsive web sites serves all assets to to all devices. That's
+                    not good.
+                </p>
+                <p>
+                    So before I wrap up this presentation I will show you some examples from the
+                    real world so you can see how it can be done.
+                </p>
             </div>
         </div>
 
@@ -1276,7 +1458,9 @@
             <h1 class="medium">Conclusions</h1>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    So what do I think about this way of designing?
+                </p>
             </div>
         </div>
         <div id="conclusions-1-2" class="step center invisible" data-x="10500" data-y="4500">
@@ -1284,7 +1468,14 @@
             <div class="box ballon ballon-down">THE way to create sites 2013…</div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    I think it's THE way to create web sites in 2013. That doesn't mean that it can
+                    only be used to create web sites, it is very good for creating awesome
+                    applications as well.
+                </p>
+                <p>
+                    However…
+                </p>
             </div>
         </div>
         <div id="conclusions-1-3" class="step center invisible" data-x="10500" data-y="4500">
@@ -1293,7 +1484,12 @@
             <div class="box ballon ballon-up">…but it doesn't always replace apps</div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    …it doesn't always replace apps. Apps are better for doing some things. The best
+                    example of this in Sweden is probably SVT Play where they had a great app and
+                    move to a responsive web wrapped in simple wrapper application. It works, but
+                    the experience is not good! I'm sorry but it isn't.
+                </p>
             </div>
         </div>
 
@@ -1302,7 +1498,11 @@
             <div class="box ballon ballon-down">We are back in 1997</div>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    An other thing to note is that you sometimes feel like we are back in the good
+                    old days when everything was new and constantly changing. Images is a very good
+                    example of that, how difficult can it be to put an image on a web site?
+                </p>
             </div>
         </div>
         <div id="conclusions-1-5" class="step center invisible" data-x="10500" data-y="4500">
@@ -1316,7 +1516,17 @@
             </p>
 
             <div class="notes">
-                <p></p>
+                <p>
+                    The big difference now it that we have the Internet and there are a lot of
+                    frameworks popping up and it's much easier to form a community and to reach the
+                    people that is actually coming up with these new ideas and it has been proven
+                    during the last year that the community can have huge impact, even on W3C.
+                </p>
+                <p>
+                    Twitter Bootstrap can be used to start playing with responsive prototype and
+                    Brad Frost is my favourite person to follow on Twitter when it comes to these
+                    kind of questions but there are of cause others as well.
+                </p>
             </div>
         </div>
 
@@ -1336,7 +1546,14 @@
             <img src="img/iphone-site1-grey.png" class="site-iphone">
 
             <div class="notes">
-                <p>Sista sliden</p>
+                <p>
+                    So now there is only one more thing to do before I end this talk and that is to
+                    push the code and presentation for you.
+                </p>
+                <p>
+                    So you can find the code and presentation at this url, you can find me on
+                    Twitter or talk to me after the session. Thank you for coming.
+                </p>
             </div>
         </div>
 
@@ -1344,11 +1561,6 @@
 
         <div id="overview" class="step" data-x="5000" data-y="2500" data-scale="12"></div>
 
-    </div>
-    <div class="print-mask">
-        <div>
-            <div></div>
-        </div>
     </div>
 
     <script src="js/scripts.min.js"></script>

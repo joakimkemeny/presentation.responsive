@@ -273,17 +273,6 @@
       "initialSize" : 88121,
       "fileType" : 8192
     },
-    "\/js\/libs\/language\/haskell.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/haskell.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/haskell.min.js",
-      "fileType" : 64
-    },
     "\/demo\/img\/placeholder-male.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -294,6 +283,17 @@
       "outputAbbreviatedPath" : "\/demo\/img\/placeholder-male.jpg",
       "initialSize" : 2834,
       "fileType" : 4096
+    },
+    "\/js\/libs\/language\/haskell.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/haskell.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/haskell.min.js",
+      "fileType" : 64
     },
     "\/img\/iphone-site3.png" : {
       "ignoreWasSetByUser" : 0,
@@ -553,15 +553,6 @@
       "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
       "initialSize" : 2965,
       "fileType" : 8192
-    },
-    "\/indexTemp.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/indexTemp.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/demo\/demo7\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
