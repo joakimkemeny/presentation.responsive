@@ -600,17 +600,16 @@
       "initialSize" : 107553,
       "fileType" : 8192
     },
-    "\/demo\/css\/styles.scss" : {
+    "\/js\/libs\/language\/coffeescript.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/css\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.min.js",
+      "fileType" : 64
     },
     "\/demo\/demo1\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -624,16 +623,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/libs\/language\/coffeescript.js" : {
+    "\/demo\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/language\/coffeescript.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/demo\/css\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/src\/grid1.css" : {
       "ignoreWasSetByUser" : 0,
@@ -983,15 +983,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/demo2\/speakers.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/libs\/language\/css.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1002,6 +993,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/language\/css.min.js",
       "fileType" : 64
+    },
+    "\/demo\/demo2\/speakers.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/demo2\/speakers.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/demo\/demo2\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
