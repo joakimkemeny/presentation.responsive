@@ -229,7 +229,7 @@ h6 {
     padding: 20px;
 
     img {
-        width: 100%;
+        width: 700px;
     }
 
     a {
@@ -583,29 +583,5 @@ pre {
     }
     .regexp {
         color: #009926;
-    }
-}
-
-/*** Mask for printing ****************************************************************************/
-
-.print-mask {
-    display: none;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    div {
-        border: 10px solid white;
-        height: 764px;
-        margin: 0 auto;
-        width: 1020px;
-
-        div {
-            border: 1px solid #666;
-            height: 100%;
-            width: 100%;
-        }
     }
 }

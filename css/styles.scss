@@ -161,15 +161,19 @@ $iPhoneRatio: 58.6/650;
         @include border-radius(5px);
 
         border: 5px solid black;
-        float: left;
-        height: 100%;
+        height: 664px;
+        left: 40px;
+        position: absolute;
+        top: 40px;
     }
     .right-image {
         @include border-radius(5px);
 
         border: 5px solid black;
-        float: right;
-        height: 100%;
+        height: 664px;
+        right: 40px;
+        position: absolute;
+        top: 40px;
     }
 }
 
@@ -186,7 +190,7 @@ $iPhoneRatio: 58.6/650;
         top: 100px;
     }
     .ballon-up {
-        left: 0;
+        left: 20;
         top: 490px;
     }
 }
@@ -315,11 +319,11 @@ $iPhoneRatio: 58.6/650;
 #conclusions-1-3 {
     .ballon-down {
         top: 100px;
-        right: 0;
+        right: 20px;
     }
     .ballon-up {
         top: 400px;
-        left: 0;
+        left: 20px;
     }
 }
 

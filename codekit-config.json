@@ -157,6 +157,15 @@
       "outputAbbreviatedPath" : "\/js\/libs\/language\/csharp.min.js",
       "fileType" : 64
     },
+    "\/src\/boxsizing2.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/demo\/demo7\/js\/scripts.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -167,15 +176,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/demo\/demo7\/js\/scripts.min.min.js",
       "fileType" : 64
-    },
-    "\/src\/boxsizing2.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/boxsizing2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/demo\/demo3\/speakers.html" : {
       "ignoreWasSetByUser" : 0,
@@ -553,6 +553,15 @@
       "outputAbbreviatedPath" : "\/img\/icons\/ipad_2x.png",
       "initialSize" : 2965,
       "fileType" : 8192
+    },
+    "\/indexTemp.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/indexTemp.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/demo\/demo7\/css\/styles.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -949,15 +958,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/language\/generic.min.js",
       "fileType" : 64
-    },
-    "\/indexOld.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/indexOld.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/demo\/demo1\/css\/styles.css" : {
       "ignoreWasSetByUser" : 0,
