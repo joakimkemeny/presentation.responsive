@@ -1,3 +1,7 @@
+### _This repository is deprecated and archived_
+
+---
+
 # Presentation.Responsive
 
 This is the presentation files and demos for the presentation **Responsive Web Design - An app is
